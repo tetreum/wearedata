@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html style="" class="notmobile nottablet notphone js no-flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths pointerevents fullscreen flash" xmlns:fb="http://www.facebook.com/2008/fbml"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <!-- Google Analytics Content Experiment code -->
+        <script src="index_files/ga.js" async="" type="text/javascript"></script><script>function utmx_section(){}function utmx(){}(function(){var
+        k='72096846-0',d=document,l=d.location,c=d.cookie;
+        if(l.search.indexOf('utm_expid='+k)>0)return;
+        function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+        indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+        length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+        '<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+        '://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+        '&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+        valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+        '" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+        </script><script src="index_files/ga_exp.js" type="text/javascript" charset="utf-8"></script><script>utmx('url','A/B');</script>
+        <!-- End of Google Analytics Content Experiment code -->
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Watch_Dogs WeAreData</title>
+        <meta name="keywords" content="Ubisoft, Data, Big Brother, Network, Technology, Experience, City, Watchdogs, Release, Hack, Transportation">
+        <meta name="description" content="Have you ever experienced the power of data ? Be prepared for Watch_Dogs WeareData.">
+        <meta name="author" content="">
+
+
+
+        <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="shortcut icon" href="http://wearedata.watchdogs.com/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="http://wearedata.watchdogs.com/touch-icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://wearedata.watchdogs.com/touch-icon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://wearedata.watchdogs.com/touch-icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://wearedata.watchdogs.com/touch-icon-144.png">
+        <link rel="stylesheet" href="index_files/master.css">
+
+        <script src="index_files/FlashObject.js"></script>
+        <script src="index_files/modernizr.js"></script>
+        <!--test for facebook compatibility-->
+        <script src="index_files/jquery.js"></script>
+        <script src="index_files/socket.js"></script>
+        <script type="text/javascript" src="index_files/swfobject.js"></script>
+        <script type="text/javascript" src="index_files/TweenMax.js"></script>
+        <script src="index_files/main.js"></script>
+        <script src="index_files/tracking.js"></script>
+        <script type="text/javascript">
+            var FB_APP_ID = '642454689113510'; // edan local:'462521313842451';
+            var SOCKET_SERVER = 'http://wearedata-server.jit.su';//'http://localhost:12321';
+            var VERSION_ARGS = 'v=1372322011119'; // subject to change after the running the build script
+            var IS_IOS_PHONE = !!navigator.userAgent.match(/(iPhone|iPod)/g);
+            var IS_MOBILE = false;
+            var IS_FLASH = window.location.href.toString().indexOf('html=true') > -1 || IS_MOBILE ? false : swfobject.hasFlashPlayerVersion('10');
+            var API_SERVER = 'http://localhost';
+            $('html').addClass(IS_FLASH ? 'flash' : 'notflash');
+        </script>
+        <script type="text/javascript" src="index_files/all.js"></script>
+    <style media="screen" type="text/css">#watchdogs {visibility:hidden}</style>
+</head>
+    <body style="overflow: hidden;">
+        <script type="text/javascript">
+                var require = { urlArgs : VERSION_ARGS.indexOf('dev') > -1 ? 'v=' + ( + new Date) : VERSION_ARGS };
+                var MAP_OPTS = {
+                    ticket:"",
+                    profile:"average",
+                    agent:"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0",
+                    city:"paris", // city data the flash should load - MANDATORY
+                    locale:"es-ES",// localisation parameters, use the format type en-GB - MANDATORY
+                    place_lon:"", // longitude where the flash should set the initial position - OPTIONNAL
+                    place_lat:"", // latitude where the flash should set the initial position - OPTIONNAL
+                    place_name:"", // place name (unavailble in the sharing link) - OPTIONNAL
+                    app_state:"0xFFFFFFFF", // layers to activate - OPTIONNAL
+                    urlxml:"/assets/xml/es-ES/landing.xml"
+                }
+                var SWF_PARAMS = {
+                    menu: "false",
+                    scale: "noScale",
+                    allowFullscreen: "true",
+                    allowScriptAccess: "always",
+                    bgcolor: "#000000",
+                    wmode: "direct",
+                    allowFullScreenInteractive: "true"
+                };
+
+                var SWF_PARAMS_LANDING = {
+                    menu: "false",
+                    scale: "noScale",
+                    allowFullscreen: "true",
+                    allowScriptAccess: "always",
+                    bgcolor: "#000000",
+                    wmode: "transparent",
+                    allowFullScreenInteractive: "true"
+                };
+
+                var attributes = {
+                    id:"watchdogs",
+                    name:"watchdogs"
+                };
+
+                var attributes_landing = {
+                    id:"landingAltContent",
+                    name:"landingAltContent"
+                };
+
+
+            document.body.style.overflow ="hidden";swfobject.embedSWF('watchdogs.swf', 'watchdogs', '100%', '100%', '11.0.0', 'expressInstall.swf', MAP_OPTS, SWF_PARAMS, attributes);
+
+        </script>
+
+
+        <div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="index_files/xd_arbiter.htm" style="border: medium none;" tab-index="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0" scrolling="no"></iframe><iframe src="index_files/xd_arbiter_002.htm" style="border: medium none;" tab-index="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0" scrolling="no"></iframe></div></div></div>
+        <div id="no-js"></div>
+
+        <div id="share-link">
+            <div class="share-link-popin">
+                <div class="share-link-header">
+                    <span class="share-link-title">Share link</span>
+                    <a href="" class="share-link-close"></a>
+                </div>
+                <div>
+                    <span class="link-copy-field" id="copy-field">http://wearedata.watchdogs.com/</span><a href="#" class="link-copy-btn" data-clipboard-target="copy-field">Copy Url</a>
+                </div>
+            </div>
+        </div>
+
+        <object style="visibility: visible;" data="index_files/watchdogs.swf" name="watchdogs" id="watchdogs" type="application/x-shockwave-flash" height="100%" width="100%"><param value="false" name="menu"><param value="noScale" name="scale"><param value="true" name="allowFullscreen"><param value="always" name="allowScriptAccess"><param value="#000000" name="bgcolor"><param value="direct" name="wmode"><param value="true" name="allowFullScreenInteractive"><param value="ticket=&amp;profile=average&amp;agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0&amp;city=paris&amp;locale=es-ES&amp;place_lon=&amp;place_lat=&amp;place_name=&amp;app_state=0xFFFFFFFF&amp;urlxml=/assets/xml/es-ES/landing.xml" name="flashvars"></object>
+        <div id="landingAltContent"></div>
+        <div id="about">
+            <div class="text-content">
+                <h2> ABOUT WATCH_DOGS WeareData </h2>
+                    <div class="text-cols">
+                    <div class="text-col">
+                        <p>In the video game  <a href="http://www.watchdogs.com/">Watch_Dogs</a>, the  <strong>city of Chicago</strong> is run by a  <strong>Central Operating System (CTOS)</strong>. This system use  <strong>data</strong> to manage the entire city and to solve complex problems. Traffic jams, war against crime, power management...</p>
+                        <p>This is not fiction anymore. Smart cities are
+ real, it’s happening now. A huge amount of data is collected and 
+managed every day in our modern cities, and those data are available for
+ everybody.</p>
+                        <p><strong>Watch_Dogs WeareData</strong> is the first  <strong>website to gather publicly available data about Paris, London and Berlin</strong>,
+ in one location. Each of the three towns is recreated on a 3D map, 
+allowing the user to discover the data that organizes and runs modern 
+cities today, in real time.  It also displays information about the 
+inhabitants of these cities, via their social media activity.</p>
+                    </div>
+                    <div class="text-col">
+                        <p><strong class="grey_upp">What you will discover here are only facts and reality.</strong></p>
+                        <p><span class="whitecopy">Watch_Dogs WeareData gathers available  <strong>geolocated data</strong>
+ in a non-exhaustive way: we only display the information for which we 
+have been given the authorization by the sources. Yet, it is already a 
+huge amount of data. You may even watch what other users are looking at 
+on the website through Facebook connect.</span></p>
+                    </div>
+                </div>
+                <div class="text-bot">
+                    <p>If you are interested in this subject, we’d love to get your feedback about the website and about our connected world.</p>
+                    <p><strong class="white_upp">Everyone has their part to play and their word to say.</strong></p>
+                    <p>Stay connected and join the conversation on social media through the <a href="http://www.facebook.com/watchdogsgame.fr" target="_blank">Watch_Dogs Facebook page</a> or through <a href="https://twitter.com/watchdogsgame" target="_blank">Twitter</a> using the hashtag <span class="blue_big"><a href="https://twitter.com/search?q=%23watchdogs&amp;src=typd" target="_blank">#watchdogs</a></span>.</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="share">
+                <a class="share-button share-inline is-trackable" href="#">Share</a>
+                <a class="share-pics share-inline is-trackable" href="#"><img src="index_files/arrow.gif" class="arrow"></a>
+            </div>
+            <div class="share-pictos-container">
+                <div style="margin-top: 150px; opacity: 1; visibility: visible;" class="share-pictos">
+                    <a class="is-trackable" href="#" data-link="link" data-pageview="/footer/share/urlcopy/"><img src="index_files/link_pic.png"></a>
+                    <a class="is-trackable" href="#" data-link="gplus" data-pageview="/footer/share/google/"><img src="index_files/gplus_pic.png"></a>
+                    <a class="is-trackable" href="#" data-link="fb" data-pageview="/footer/share/facebook/"><img src="index_files/facebook_pic.png"></a>
+                    <a class="is-trackable" href="#" data-link="twitter" data-pageview="/footer/share/twitter/"><img src="index_files/twitter_pic.png"></a>
+                </div>
+            </div>
+            <div class="footer-left">
+                <a class="footer-link footer-link-watchdogs is-trackable" data-pageview="/footer/wd/" href="http://watchdogs.ubi.com/" target="_blank">Watch_dogs</a>
+                <a class="footer-link footer-link-ubisoft is-trackable" data-pageview="/footer/ubi/" href="http://www.ubi.com/" target="_blank">Ubisoft</a>
+            </div>
+            <!--div class="footer-right">
+                <a href="about" target="_self" class="footer-link">legals</a>
+                <a href="#" target="_self" class="footer-link">language</a>
+                <a class="sound-btn" href="#" target="_self" class="footer-link"><img src="mobile/images/landing/vol.gif" /></a>
+            </div-->
+        </div>
+    
+
+</body></html>

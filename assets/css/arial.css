@@ -1,0 +1,468 @@
+/*
+
+blanc ( gris tres clair ) #FDFBFA
+
+//propriétés acceptées:
+color					color				Seules les valeurs hexadécimales de couleur sont supportées. Les couleurs nommées (comme blue) ne sont pas prises en charge. Les couleurs sont écrites au format suivant : #FF0000.
+display					display	Les 		valeurs supportées sont inline, block et none.
+font-family				fontFamily			Liste des polices à utiliser, séparées par des virgules, classées par ordre de choix décroissant. Tous les noms de familles de polices peuvent être utilisés. Si vous spécifiez un nom de police générique, il est converti dans la police de périphérique appropriée. Les conversions de police suivantes sont disponibles : mono est converti en _typewriter, sans-serif en _sans et serif en _serif.
+font-size				fontSize.			Seule la partie numérique de la valeur est utilisée. Les unités (px, pt) ne sont pas analysées. Les pixels et les points sont équivalents.
+font-style				fontStyle			Les valeurs reconnues sont normal et italic.
+font-weight		
+kerning
+		fontWeight			Les valeurs reconnues sont normal et bold.
+crénage					crénage	Les 		valeurs reconnues sont true et false. Le crénage est supporté uniquement pour les polices incorporées. Certaines polices, telles que Courier New, ne supportent pas le crénage. La propriété de crénage n'est supportée que dans les fichiers SWF créés dans Windows, pas dans les fichiers SWF créés sur Macintosh. Cependant, ces fichiers SWF peuvent être lus dans des versions de Flash Player autres que Windows et le crénage s'applique encore.
+leading					leading				La quantité d'espace répartie uniformément entre les lignes. La valeur spécifie le nombre de pixels à ajouter après chaque ligne. Une valeur négative comprime l'espace entre les lignes. Seule la partie numérique de la valeur est utilisée. Les unités (px, pt) ne sont pas analysées. Les pixels et les points sont équivalents.
+letter-spacing			letterSpacing		La quantité d'espace répartie uniformément entre les caractères. La valeur spécifie le nombre de pixels à ajouter après chaque caractère. Une valeur négative comprime l'espace entre les caractères. Seule la partie numérique de la valeur est utilisée. Les unités (px, pt) ne sont pas analysées. Les pixels et les points sont équivalents.
+margin-left				marginLeft			Seule la partie numérique de la valeur est utilisée. Les unités (px, pt) ne sont pas analysées. Les pixels et les points sont équivalents.
+margin-right			marginRight			Seule la partie numérique de la valeur est utilisée. Les unités (px, pt) ne sont pas analysées. Les pixels et les points sont équivalents.
+text-align				textAlign			Les valeurs reconnues sont left, center, right et justify.
+text-decoration			textDecoration		Les valeurs reconnues sont none et underline.
+text-indent				textIndent			Seule la partie numérique de la valeur est utilisée. Les unités (px, pt) ne sont pas analysées. Les pixels et les points sont équivalents.
+
+*/
+p
+{
+	font-family:"Arial" ;
+	color:#FFFFFF;
+	font-size:11 px ;
+}
+bold{
+	font-family:"ArialBold" ;
+	display:"inline" ;
+}
+bolditalic{
+	font-family:"ArialBoldItalic" ;
+	display:"inline" ; 
+}
+.simpleButtonRollover{
+	font-family:"ArialBold" ;
+	font-size:12 px ;
+	color:#FFFFFF;
+}
+.simpleButtonRollout{
+	font-family:"ArialBold" ;
+	font-size:12 px ;
+	color:#000000;
+}
+
+
+ /* LANDING */
+.LandingCityText{
+	font-family:"ArialBold" ;
+	font-size:17 px ;
+	color:#000000;
+}
+.LandingInfoText{
+	font-family:"Arial" ;
+	font-size:12 px;
+	color:#FFFFFF;
+}
+
+.LandingSelectText{
+	font-family:"Arial" ;
+	font-size:15 px;
+	color:#000000;
+}
+/*
+*	AIDEN MESSAGES
+*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.aidenMessageTitle{
+	font-size:16 px ;
+	font-family:"ArialBold" ;
+	
+}
+.aidenMessageText{
+	font-size:16 px ;
+	
+}
+.aidenMessageLink{
+	font-size:16 px ;
+	font-family:"ArialBold" ;
+	
+}
+/*
+*	PANELS
+*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.panelTitle{
+	font-size:24px;
+}
+/* LAYERS PANEL */
+.layerPanelItem{
+	font-family:"ArialBold" ;
+}
+.layerPanelFolder{
+	font-family:"ArialBold" ;
+	color:#838383;
+}
+
+/* STATS PANEL */
+.statsPanelLocation{
+	font-family:"Arial" ;
+	font-size:50 px ;
+}
+.statsPanelDataLabel{
+	font-family:"ArialBold" ;
+	font-size:12 px ;
+}
+.statsPanelDataSilderValueOut{
+	font-family:"ArialBold" ;
+
+}
+.statsPanelDataAmountValue_salary_monthly{
+	font-family:"Arial" ;
+	font-size:36 px ;
+}
+.statsPanelDataAmountValue_electricity{
+	font-family:"Arial" ;
+	font-size:17 px ;
+}
+.statsPanelDataAmountUnitSmall{
+	font-family:"Arial" ;
+	font-size:12 px ;
+}
+.exp{
+	font-family:"Arial" ;
+	font-size:25 px ;
+
+}
+.latlong{
+	font-family:"Arial" ;
+	font-size:12 px ;
+	
+}
+.infoPopin{
+	font-family:"ArialBold" ;
+	font-size:12 px ;
+	
+}
+/* COMPASS */
+.compassNavigationHelp{
+	color:#838383;
+	leading: 3 px ;
+}
+
+/* LIVE PANEL */
+.facebookButton{
+	font-weight: bold ;
+
+}
+.livePanelData{
+	font-family:"Arial" ;
+
+}
+.livePanelUserName{
+	font-size:16 px ;
+}
+.liveActivityData{
+	font-family:"Arial" ;
+	font-size:10 px ;
+}
+.liveActivityDataColor{
+	font-family:"Arial" ;
+	font-size:10 px ;
+	color:#696969 ;
+}
+
+/* TUTO TEXT */
+
+.tutoTitle{
+	font-family:"Arial" ;
+	font-size:21 px ;
+	color:#000000 ;
+}
+.tutoText{
+	font-family:"ArialItalic" ;
+	font-size:15 px ;
+	color:#000000 ;
+}
+.tutoBtn{
+	font-family:"ArialBold" ;
+	font-size:12 px ;
+	color:#000000 ;
+}
+.tutoIndex{
+	font-family:"Arial" ;
+	font-size:12 px ;
+	color:#FFFFFF ;
+}
+.tutoCompassText{
+	font-family:"Arial" ;
+	font-size:15 px ;
+	color:#000000 ;
+}
+
+/* SEARCH */
+.searchTitle{
+	font-family:"ArialBold" ;
+	font-size:12 px ;
+	color:#000000 ;
+}
+.searchTitleRollover{
+	font-family:"ArialBold" ;
+	font-size:12 px ;
+	color:#FFFFFF ;
+}
+.searchResult{
+	font-family:"Arial" ;
+	font-size:11 px ;
+	color:#FFFFFF ;
+
+}
+/*
+*	MENTIONS
+*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.mentions{
+	font-family:"Arial" ;
+	font-size:8 px ;
+	color:#6C6C6C ;
+}
+/*
+*	TRACKER LABEL
+*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.rolloverTrackerLabel{
+	font-family:"Arial" ;
+	font-size:12 px ;
+}
+/*
+*	FOOTER
+*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.leftFooterItem{
+	font-family:"Arial" ;
+	font-size:10 px ;
+}
+
+/*
+*	POPINS
+*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.popinTitle{
+	font-family:"Arial" ;
+	font-size:30 px ;
+
+}
+
+.popinBtn{
+	font-family:"ArialBold" ;
+	font-size:18 px ;
+	color:#000000 ;
+}
+.popinTextBtn{
+	font-family:"Arial" ;
+	color: #FFFFFF ;
+	font-size:12 px ;
+}
+
+/* BIKES */
+.bikesPopinTxt1{
+	font-family:"Arial" ;
+	font-size:34 px ;
+}
+.bikesPopinTxt3{
+	font-family:"ArialBold" ;
+	color:#6C6C6C ;
+	font-size:10 px ;
+}
+.bikesPopinTxt4{
+	font-family:"Arial" ;
+	color: #FFFFFF ;
+	font-size:10 px ;
+}
+/* ELECTROMAGNETICS */
+.elecPopinTxt1{
+	font-family:"Arial" ;
+	font-size:34 px ;
+}
+.elecUnitSmall{
+	font-size:20 px ;
+}
+.elecDataInfo{
+	font-family:"ArialBold" ;
+	color: #FFFFFF ;
+	font-size:11 px ;
+}
+.elecGps{
+	font-family:"Arial" ;
+	color: #FFFFFF ;
+	font-size:14 px ;
+}
+.elecCoordsLabels{
+	font-family:"ArialBold" ;
+	color: #FFFFFF ;
+	font-size:11 px ;
+}
+.elecCoordsData{
+	font-family:"Arial" ;
+	font-size:34 px ;
+}
+.elecCoordsData2{
+	font-family:"Arial" ;
+	font-size:22 px ;
+}
+/* TRAINS */
+.trainsPopinTxt1{
+	font-family:"Arial" ;
+	font-size:34 px ;
+}
+.trainsDataInfo{
+	font-family:"ArialBold" ;
+	font-size:11 px ;
+}
+.nextTrains{
+	font-family:"Arial" ;
+	font-size:14 px ;
+}
+/* INSTAGRAM */
+.instPopinSuTitle{
+	color:#6C6C6C ;
+	font-style : "italic" ;
+	font-size:14 px ;
+}
+.instPopinImageTitle{
+	font-size:14 px ;
+}
+.instPopinImagePlace{
+	color:#6C6C6C ;
+	font-size:9 px ;
+}
+
+/* AD */
+.adPopinTxt1{
+	font-family:"Arial" ;
+	font-size:34 px ;
+}
+.adPopinTxt2{
+	font-size:14 px ;
+}
+
+/* FOURSQUARE */
+.foursquarePopinDate{
+	color:#6C6C6C ;
+	font-size:9 px ;
+}
+.foursquarePopinPowered{
+	color:#6C6C6C ;
+	font-size:9 px ;
+}
+.foursquarePopinText{
+	font-family:"ArialItalic" ;
+	font-size:28 px ;
+}
+.foursquarePopinTextBold{
+	font-family:"ArialBoldItalic" ;
+	font-size:28 px ;
+}
+
+/* TWITTER */
+.twitterPopinDate{
+	color:#6C6C6C ;
+	font-size:9 px ;
+}
+.twitterPopinAt{
+	color:#6C6C6C ;
+	font-size:9 px ;
+}
+.twitterPopinFollowBtn{
+	font-family:"ArialBold" ;
+	color:#353126 ;
+	font-size:12 px ;
+}
+.twitterPopinMenuItem{
+	color:#6C6C6C ;
+	font-size:9 px ;
+}
+.twitterPopinText{
+	font-family:"ArialItalic" ;
+	font-size:28 px ;
+}
+.twitterPopinSubTitle{
+	font-size:23 px ;
+}
+/* MOBILES POPIN */
+.mobilePopinText{
+	font-family:"Arial" ;
+	font-size:28 px ;
+}
+.mobilePopinText2{
+	font-family:"Arial" ;
+	font-size:14 px ;
+}
+
+
+/* HELP POPIN */
+.helpPopinTitle{
+	font-family:"Arial" ;
+	color:#FFFFFF;
+	font-size:16 px ;
+}
+.helpPopinText{
+	font-family:"Arial" ;
+	color:#6C6C6C ;
+	font-size:13px;
+}
+
+/* DISCLAIMER POPIN */
+.disclaimerPopinText{
+	font-family:"ArialItalic" ;
+	font-size:15 px ;
+}
+
+
+/* LANG POPIN */
+.langPopinItem{
+	font-family:"Arial" ;
+	font-size:15 px ;
+}
+
+/* ABOUT POPIN */
+.aboutPopinText{
+	font-family:"ArialItalic" ;
+	font-size:15 px ;
+}
+/* LEGALS POPIN */
+.legalsPopinText{
+	font-family:"Arial" ;
+	font-size:11 px ;
+}
+.legalsPopinBtn{
+	font-family:"ArialBold" ;
+	font-size:11 px ;
+	color:#000000 ;
+}
+
+/* SHARE POPIN */
+.sharePopinTxt{
+	font-family:"ArialItalic" ;
+	font-size:16 px ;
+}
+.sharePopinLink{
+	font-family:"ArialItalic" ;
+	font-size:16 px ;
+	color:#000000 ;
+}
+.sharePopinBtn_rollout{
+	font-family:"Arial" ;
+	font-size:11 px ;
+	color:#FFFFFF ;
+}
+.sharePopinBtn_rollover{
+	font-family:"Arial" ;
+	font-size:11 px ;
+	color:#000000 ;
+}
+legalsTitle{
+	display : "block" ;
+	font-size:13 px ;
+	font-family:"Arial" ;
+}
+legalsImportant{
+	font-family:"ArialBoldItalic" ;
+	display:"inline" ; 
+	font-size:12 px ;
+}

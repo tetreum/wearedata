@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<bounds minlon="2.24500" minlat="48.81000" maxlon="2.42500" maxlat="48.91000"/>
+	
+	<worldScale>30000000</worldScale>
+	<building minHeight="10" maxHeight="20" debrisOffset="2" />
+	
+	<camera>
+		
+		<minHeight>90</minHeight>
+		<maxHeight>2000</maxHeight>
+		<minRadius>-1</minRadius>
+		<maxRadius>-120</maxRadius>
+		
+	</camera>
+	
+	<filters>
+	
+		<!--transports/-->
+		<metro active="1"                showPopin="1" 	showDetail="1"/>
+		<bicycle active="1"              showPopin="1" 	showDetail="1"/>
+                                         
+		<!--networks/-->                 
+		<electromagnetic active="1"      showPopin="1" 	showDetail="1"/>
+		<internetRelays active="1"       showPopin="1" 	showDetail="1"/>
+		<wifiHotSpots active="1"         showPopin="1" 	showDetail="1"/>
+		<mobile active="1"               showPopin="1" 	showDetail="1"/>
+                                         
+		<!--streetFurniture/-->          
+		<atm active="1"                  showPopin="1" 	showDetail="1"/>
+		<ad active="1"                   showPopin="1" 	showDetail="1"/>
+		<traffic active="1"              showPopin="1" 	showDetail="1"/>
+		<toilets active="1"              showPopin="1" 	showDetail="1"/>
+		<cameras active="1"              showPopin="1" 	showDetail="1"/>
+                                         
+		<!--social/-->                   
+		<twitter active="1"              showPopin="1" 	showDetail="1"/>
+		<instagram active="1"            showPopin="1" 	showDetail="1"/>
+		<fourSquare active="1"           showPopin="1" 	showDetail="1"/>
+		<flickr active="1"               showPopin="1" 	showDetail="1"/>
+	
+	</filters>
+	
+	<metroLineColors>
+		
+		<line name="1" color="0xFFDA00"/>
+		<line name="2" color="0x0080FF"/>
+		<line name="3" color="0xB1C900"/>
+		<line name="4" color="0xA700E5"/>
+		<line name="5" color="0xFF7900"/>
+		<line name="6" color="0x00C66C"/>
+		<line name="7" color="0xFF0080"/>
+		<line name="8" color="0xCD6BF7"/>
+		<line name="9" color="0xC9C900"/>
+		<line name="10" color="0xC68D00"/>
+		<line name="11" color="0xBF6800"/>
+		<line name="12" color="0x2C9B3E"/>
+		<line name="13" color="0x03FCFC"/>
+		<line name="14" color="0x8806F9"/>
+		<line name="multiLineparis" color="0x8806F9"/>
+		<line name="3B" color="0x00A1BC"/>
+		<line name="7B" color="0x00C19C"/>
+
+	</metroLineColors>
+
+	<monuments>
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.ArcDeTriomphe" lon="2.295027" lat="48.873831" decalX="3" decalY="10" decalZ="-15" 	rotation="-65" 	scale=".53" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.HotelDeVille" lon=" 2.352536" lat="48.856421" decalX="0" decalY="0" decalZ="0" 	rotation="0" 	scale=".58" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.SacreCoeur" lon=" 2.343011" lat="48.886745" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".48" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.NotreDame" lon=" 2.349861" lat="48.853026" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".58" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.GrandPalais" lon=" 2.311929" lat="48.866172" decalX="0" decalY="0" decalZ="0" 	rotation="0" 	scale=".55" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.Invalides" lon=" 2.312686" lat="48.855976" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".225" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.Obelisque" lon=" 2.321126" lat="48.865451" decalX="0" decalY="10" decalZ="7" 	rotation="-65" 	scale=".48" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.PalaisGarnier" lon=" 2.331692" lat="48.872023" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".54" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.louvre.PyramideLouvre" lon=" 2.335898" lat="48.861013" decalX="4" decalY="10" decalZ="-5" 	rotation="0" 	scale=".58" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.louvre.CourCarree" lon=" 2.338534" lat="48.86036" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".58" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.louvre.AileRichelieu" lon=" 2.336582" lat="48.861881" decalX="0" decalY="10" decalZ="-3" 	rotation="0" 	scale=".58" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.louvre.AileDenon" lon=" 2.335643" lat="48.860002" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".58" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.EiffelTower" lon="2.294254" lat="48.858278" decalX="40" decalY="12" decalZ="0" 	rotation="0" 	scale="2.3" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.paris.TourMontparnasse" lon=" 2.32195" lat="48.842146" decalX="2" decalY="0" decalZ="-12" 	rotation="0" 	scale=".50" />
+		</monuments>
+	
+	<dataUnits>
+		
+		<electricityConsumption			unit="MWH" label=""/>
+		<metroTrainFrequency 			unit="metroTrainPerHour" label=""/>
+		<metroCommutersFrequency 		unit="metroCommutersPerHour" label=""/>
+		<electroMagneticFieldsLevel		unit="electroMagneticFieldVPerM" label="electroMagneticFieldsOverAllLevelOfExposure"/>
+		<adConsumerExposed				unit="adConsumerExposedPerDay" label=""/>
+		
+	</dataUnits>
+	
+</data>

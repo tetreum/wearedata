@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<bounds minlon="-0.51150" minlat="51.28549" maxlon="0.27897" maxlat="51.68398"/>
+	
+	<worldScale>10000000</worldScale>
+	<building minHeight="12" maxHeight="20" debrisOffset="0" />
+	
+	<camera>
+		
+		<minHeight>90</minHeight>
+		<maxHeight>900</maxHeight>
+		<minRadius>-1</minRadius>
+		<maxRadius>-120</maxRadius>
+		
+	</camera>
+	
+	<filters>
+		
+		<!--transports/-->
+		<metro active="1"				showPopin="1" 	showDetail="1"/>
+		<bicycle active="1"				showPopin="1" 	showDetail="1"/>
+
+		<!--networks/-->
+		<electromagnetic active="1"		showPopin="1" 	showDetail="1"/>
+		<internetRelays active="0"		showPopin="1" 	showDetail="1"/>
+		<wifiHotSpots active="0"		showPopin="1" 	showDetail="1"/>
+		<mobile active="1"				showPopin="1" 	showDetail="1"/>
+
+		<!--streetFurniture/-->
+		<atm active="1"					showPopin="1" 	showDetail="1"/>
+		<ad active="0"					showPopin="1" 	showDetail="1"/>
+		<traffic active="1"				showPopin="1" 	showDetail="1"/>
+		<toilets active="1"				showPopin="1" 	showDetail="1"/>
+		<cameras active="1"				showPopin="1" 	showDetail="1"/>
+
+		<!--social/-->
+		<twitter active="1"				showPopin="1" 	showDetail="1"/>
+		<instagram active="1"			showPopin="1" 	showDetail="1"/>
+		<fourSquare active="1"			showPopin="1" 	showDetail="1"/>
+		<flickr active="1"				showPopin="1" 	showDetail="1"/>
+		
+	</filters>
+	
+	<metroLineColors>
+		
+		<line name="CIRCLE" color="0xFFDA00" />
+		<line name="DISTRICT" color="0x00C66C" />
+		<line name="BAKERLOO" color="0xBF6800" />
+		<line name="CENTRAL" color="0xFF7900" />
+		<line name="DLR" color="0x057F14" />
+		<line name="HAMMERSMITH &amp; CITY" color="0xFF0080" />
+		<line name="JUBILEE" color="0x8D8D8D" />
+		<line name="METROPOLITAN" color="0xBC1789" />
+		<line name="NORTHERN" color="0x999999" /> <!--(avec outline blanc) : pas possible... /-->
+		<line name="OVERGROUND" color="0xF5F5F5" />
+		<line name="PICCADILLY" color="0x0074FF" />
+		<line name="VICTORIA" color="0x03FCFC" />
+		<line name="WATERLOO &amp; CITY" color="0x00C19C" />
+		<line name="multiLinelondon" color="0x8806F9"/>
+	</metroLineColors>
+	
+	<monuments>
+		<mesh classpath="wd.d3.geom.monuments.mesh.london.StMaryAxe30" lon="-0.080338" lat="51.514465" decalX="0" decalY="5" decalZ="0" 	rotation="0" 	scale=".23" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.london.BritishMuseum" lon="-0.126924" lat="51.519305" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".21" />	
+		<mesh classpath="wd.d3.geom.monuments.mesh.london.Buckingham" lon="-0.142576" lat="51.500989" decalX="0" decalY="0" decalZ="0" 	rotation="0" 	scale=".185" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.london.SaintPancras" lon="-0.126473" lat="51.531594" decalX="0" decalY="5" decalZ="0" 	rotation="0" 	scale=".20" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.london.LondonEye" lon="-0.1196" lat="51.503235" decalX="0" decalY="45" decalZ="0" 	rotation="0" 	scale=".23" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.london.MarbleArch" lon="-0.15892" lat="51.513181" decalX="0" decalY="0" decalZ="0" 	rotation="0" 	scale=".20" />	
+		<mesh classpath="wd.d3.geom.monuments.mesh.london.MI6" lon="-0.124436" lat="51.487212" decalX="0" decalY="0" decalZ="0" 	rotation="0" 	scale=".08" />	
+		<mesh classpath="wd.d3.geom.monuments.mesh.london.NationalGallery" lon="-0.128736" lat="51.508878" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".20" />
+		
+		<mesh classpath="wd.d3.geom.monuments.mesh.london.Shard" lon="-0.086915" lat="51.504923" decalX="0" decalY="5" decalZ="0" 	rotation="0" 	scale=".17" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.london.WestminsterAbbey" lon="-0.127551" lat="51.499052" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".21" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.london.WestminsterPalace" lon="-0.124778" lat="51.499313" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".20" />
+
+		<mesh classpath="wd.d3.geom.monuments.mesh.london.Nelson_sColumn" lon="-0.127954" lat="51.507759" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".20" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.london.TowerBridge" lon="-0.075484" lat="51.50553" decalX="0" decalY="30" decalZ="0" 	rotation="0" 	scale=".21" />
+
+	</monuments>
+	<dataUnits>
+		
+		<electricityConsumption			unit="MWH" label=""/>
+		<metroTrainFrequency 			unit="metroTrainPerHour" label=""/>
+		<metroCommutersFrequency 		unit="metroCommutersPerHour" label=""/>
+		<electroMagneticFieldsLevel		unit="" label="electroMagneticFieldsOverAllQuotientOfExposure"/>
+		<adConsumerExposed				unit="adConsumerExposedPerDay" label=""/>
+	</dataUnits>
+</data>

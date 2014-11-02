@@ -1,0 +1,27 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<content>
+		<tag ><![CDATA[/landing]]></tag>
+		<info>
+			<txt ><![CDATA[Be prepared for a reality you may not be aware of.]]></txt>
+			<txt ><![CDATA[Now you can discover more about the data that controls modern cities.]]></txt>
+			<txt ><![CDATA[Select a city]]></txt>
+		</info>
+			
+		<buttons target="_self">	
+			<button x="3.14" y="2.0" z="60" url="start.php#&city=paris">
+				<name ><![CDATA[PARIS]]></name>
+				<tag ><![CDATA[/landing/paris]]></tag>
+			</button>
+			<button x="1.47" y="0.83" z="50" url="start.php#&city=london">
+				<name><![CDATA[LONDON]]></name>
+				<tag ><![CDATA[/landing/london]]></tag>
+			</button>
+			<button x="4.8" y="2.4" z="80" url="start.php#&city=berlin">
+				<name ><![CDATA[BERLIN]]></name>
+				<tag ><![CDATA[/landing/berlin]]></tag>
+			</button>
+		</buttons >		
+	</content>	
+</data>

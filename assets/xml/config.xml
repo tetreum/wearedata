@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<rootUrl url="http://wearedata.watchdogs.com/"/>
+	<service>
+	
+		<path url="http://wearedata.watchdogs.com/amfserver.php"/>
+
+		<mode profile="average">
+			
+			<light>
+				<building radius=".25" pagination="50"/>
+				<data radius=".5" pagination="50"/>
+			</light>			
+
+			<average>
+				<building radius=".5" pagination="5000"/>
+				<data radius="1" pagination="500"/>
+			</average>
+
+			
+			<robust>
+				<building radius="1" pagination="10000"/>
+				<data radius="3" pagination="1000"/>
+			</robust>
+			
+		</mode>
+
+
+
+	</service>
+
+	<googleAnalytics>
+	
+		<campaign></campaign>
+		
+		
+		<!-- label des CATEGORIES !-->
+		<transports>transports</transports>
+		<networks>networks</networks>
+		<streetFurniture>street furnitures</streetFurniture>
+		<social>social</social>
+		
+		<!-- 
+		category et datatype ne changent pas sur cet appel et peuvent être édités ici 
+		-->
+		<tag id="fbItemClick"						type="_trackEvent"		format="city,facebook,itemClick,1" />
+		
+		<!-- 
+		formatté automatiquement avant l'appel 
+		-->
+		<tag id="mapItemClick"						type="_trackEvent" 		format="city,category,datatype,0" />
+		
+		
+		<tag id="/app/topview"						type="_pageView"		format="/app/topview/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/app/map"							type="_pageView"		format="/app/map/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/tutorial/close"					type="_pageView"		format="/tutorial/close/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/tutorial/first"					type="_pageView"		format="/tutorial/first/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/tutorial/second"					type="_pageView"		format="/tutorial/second/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/tutorial/third"					type="_pageView"		format="/tutorial/third/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/tutorial/fourth"					type="_pageView"		format="/tutorial/fourth/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/tutorial/fifth"					type="_pageView"		format="/tutorial/fifth/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/tutorial/sixth"					type="_pageView"		format="/tutorial/sixth/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/tutorial/seventh"					type="_pageView"		format="/tutorial/seventh/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/app/facebook"						type="_pageView"		format="/app/facebook/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/app/facebook/disclaimer"			type="_pageView"		format="/app/facebook/disclaimer/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/app/facebook/connected"			type="_pageView"		format="/app/facebook/connected/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/footer/wd"						type="_pageView"		format="/footer/wd/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/footer/ubi"						type="_pageView"		format="/footer/ubi/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/footer/share/twitter"				type="_pageView"		format="/footer/share/twitter/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/footer/share/facebook"			type="_pageView"		format="/footer/share/facebook/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/footer/share/google"				type="_pageView"		format="/footer/share/google/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/footer/share/urlcopy"				type="_pageView"		format="/footer/share/urlcopy/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/footer/about"						type="_pageView"		format="/footer/about/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/footer/legals"					type="_pageView"		format="/footer/legals/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/footer/help"						type="_pageView"		format="/footer/help/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/footer/language"					type="_pageView"		format="/footer/language/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/footer/sound"						type="_pageView"		format="/footer/sound/?mobile=no|city=XXX|locale=aa-AA" />
+		<tag id="/footer/fullscreen"				type="_pageView"		format="/footer/fullscreen/?mobile=no|city=XXX|locale=aa-AA" />
+	
+	</googleAnalytics>
+	
+	<facebook>
+	 <!-- TODO : set this as a template -->
+	 <!--localhost loic <appId>511832172197365</appId>-->
+	 <!--dev <appId>528280620562034</appId>-->  
+	 <!--recette -->
+	 <appId>642454689113510</appId>
+	 <!--live <appId>642454689113510</appId>  -->
+	</facebook>
+	
+	<live>
+		<socketServer url="http://wearedata-server.jit.su" />
+	</live>
+	
+	<debug active="1">
+	
+		<flashVars>0</flashVars>
+		<simulation>0</simulation>
+		<service>0</service>
+		<locator>0</locator>
+		<hud>0</hud>
+		<tracker>0</tracker>
+		
+	</debug>
+	
+	<useFakeTrains>
+		<paris>0</paris>
+		<london>0</london>
+		<berlin>0</berlin>
+	</useFakeTrains>
+	
+	<cameraController>
+		
+		<minFOV>60</minFOV> 
+		<maxFOV>90</maxFOV> 
+		<minRadius>-1</minRadius>
+		<maxRadius>-120</maxRadius>
+		
+	</cameraController>
+	
+	<languages>
+		<lang 	locale="en-EN"
+				fonts="fontsPackBasicLatin1.swf"
+				css="default.css" >
+					<label>ENGLISH</label>
+		</lang>
+		<lang	locale="fr-FR"
+				fonts="fontsPackBasicLatin1.swf"
+				css="default.css"
+				facebookConnectAvailable="true">
+					<label>FRANÇAIS</label>
+		</lang>
+		<!--<lang locale="fr-FR" fonts="system" 					css="system-tmp.css"><label>FRANÇAIS</label></lang>-->
+		<lang	locale="de-DE"
+				fonts="fontsPackBasicLatin1.swf"
+				css="default.css">
+					<label>DEUTSCH</label>
+		</lang>
+		<lang 	locale="it-IT"
+				fonts="fontsPackBasicLatin1.swf"
+				css="default.css">
+					<label>ITALIANO</label>
+		</lang>
+		<lang 	locale="es-ES"
+				fonts="fontsPackBasicLatin1.swf"
+				css="default.css">
+					<label>ESPANOL</label>
+					</lang>
+		<lang locale="nl-NL" fonts="fontsPackBasicLatin1.swf" 	css="default.css"><label>NEDERLANDS</label></lang>
+		<lang locale="pl-PL" fonts="fontsPackCyrillicArial.swf" 	css="arial.css"><label>POLSKI</label></lang>
+		<lang locale="sw-SW" fonts="fontsPackBasicLatin1.swf" 	css="default.css"><label>SVENSKA</label></lang>
+		<lang locale="ru-RU" fonts="fontsPackCyrillicArial.swf" 	css="arial.css"><label>PУССКИЙ</label></lang>
+		<lang locale="jp-JP" fonts="system" 					css="arial.css"><label>日本語</label></lang>
+	</languages>
+			
+</data>

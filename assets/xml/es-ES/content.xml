@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- ES -->
+<data>
+
+	<commons>
+		
+		<latitude><![CDATA[Latitud]]></latitude>
+		<longitude><![CDATA[Longitud]]></longitude>
+		
+		<paris><![CDATA[París]]></paris>
+		<london><![CDATA[Londres]]></london>
+		<berlin><![CDATA[Berlín]]></berlin>
+		
+		<loading><![CDATA[Cargando datos]]></loading>
+		<mapInstructions><![CDATA[HAZ CLIC EN EL MAPA O EN UN SÍMBOLO AZÚL PARA EMPEZAR AHÍ LA EXPERIENCIA]]></mapInstructions>
+		<selectLocation><![CDATA[Elige un lugar]]></selectLocation>
+		<lastPosition><![CDATA[ÚLTIMA POSICIÓN]]></lastPosition>
+		
+	</commons>
+	<units>
+		<MWPerYear><![CDATA[MW /año]]></MWPerYear>
+		<MWH><![CDATA[ MWh]]></MWH>
+		<metroTrainPerHour><![CDATA[trenes<span class="trainsDataInfo"> /hora</span>]]></metroTrainPerHour>
+		<metroCommutersPerDay><![CDATA[Media de pasajeros/dia]]></metroCommutersPerDay>
+		<metroCommutersPerHour><![CDATA[Media de pasajeros/hora]]></metroCommutersPerHour>
+		<electroMagneticFieldVPerM><![CDATA[Volts <span class="elecUnitSmall">/ m</span>]]></electroMagneticFieldVPerM>
+		<adConsumerExposedPerDay><![CDATA[consumidores expuestos a anuncio/día]]></adConsumerExposedPerDay>
+		<electroMagneticFieldsOverAllLevelOfExposure><![CDATA[Nivel de exposición global]]></electroMagneticFieldsOverAllLevelOfExposure>
+		<electroMagneticFieldsOverAllQuotientOfExposure><![CDATA[Cociente total de exposición a banda]]></electroMagneticFieldsOverAllQuotientOfExposure>
+		<perMonth><![CDATA[/mes]]></perMonth>
+		<perYear><![CDATA[/año]]></perYear>
+		<perCent><![CDATA[%]]></perCent>
+		<perThousand><![CDATA[/1000]]></perThousand>
+		<perDay><![CDATA[/día]]></perDay>
+		<HQ><![CDATA[HQ]]></HQ>
+		<LQ><![CDATA[LQ]]></LQ>
+	</units>
+	<footer>
+		
+		<cities><![CDATA[Ciudades]]></cities>
+		<paris><![CDATA[PAR]]></paris>
+		<london><![CDATA[LDN]]></london>
+		<berlin><![CDATA[BLN]]></berlin>
+		<share><![CDATA[Compartir]]></share>
+		<about><![CDATA[Información]]></about>
+		<legals><![CDATA[Avisos legales]]></legals>
+		<help><![CDATA[Ayuda]]></help>
+		<languages><![CDATA[Idioma]]></languages>
+		<sound><![CDATA[Sonido]]></sound>
+		<onOff><![CDATA[Sí/No]]></onOff>
+		<fullscreen><![CDATA[Pantalla completa]]></fullscreen>
+		<watchdogs><![CDATA[WATCH_DOGS]]></watchdogs>
+		<watchdogs_link><![CDATA[http://watchdogs.ubi.com/]]></watchdogs_link>
+		<ubisoft><![CDATA[UBISOFT]]></ubisoft>
+		<ubisoft_link><![CDATA[http://www.ubi.com/]]></ubisoft_link>
+		<helpNavigationText><![CDATA[Arrastra, desplaza o usa las flechas de dirección del teclado.]]></helpNavigationText>
+		<search><![CDATA[Encuentra un dato]]></search>
+		<searchFieldContent><![CDATA[distrito, estaciones de metro...]]></searchFieldContent>
+	</footer>
+	<aidenMessages>
+		<aidenName><![CDATA[Aiden Pearce]]></aidenName>
+		<meassages>
+			<message><![CDATA[¡Hazte con el control de los datos!]]></message>
+			<message><![CDATA[Los datos controlan la ciudad, pero ¿quién controla los datos? ¿Lo harías tú?]]></message>
+			<message><![CDATA[Convierte a la ciudad en su peor enemiga]]></message>
+		</meassages>
+		<link_label><![CDATA[www.watchdogs.com]]></link_label>
+		<link_url><![CDATA[http://www.watchdogs.com]]></link_url>
+	</aidenMessages>
+	<tutorial>
+		<btnNext><![CDATA[SIGUIENTE]]></btnNext>
+		<btnOk><![CDATA[ACEPTAR]]></btnOk>
+		<btnNok><![CDATA[NO GRACIAS]]></btnNok>
+		<step1>
+			<title><![CDATA[¿NECESITAS AYUDA?]]></title>
+			<text><![CDATA[Sigue un tutorial que te enseñará a usar este sitio web paso a paso.]]></text>
+			<textRemember><![CDATA[Si cambias de idea, siempre puedes hacer clic en el botón de Ayuda para acceder al tutorial.]]></textRemember>
+		</step1>
+
+		<step2>
+			<title><![CDATA[¿PERDIDO ENTRE LOS DATOS?]]></title>
+			<text><![CDATA[Para explorar el mapa: muévete, acerca o aleja el zoom y cambia la orientación.]]></text>
+			<keyboard><![CDATA[TECLADO]]></keyboard>
+			<mouse><![CDATA[RATÓN]]></mouse>
+			<wheel><![CDATA[RUEDA]]></wheel>
+		</step2>
+		<step3>
+			<title><![CDATA[¿BUSCAS UN LUGAR?]]></title>
+			<text><![CDATA[Aquí puedes buscar un determinado lugar, distrito, estación de metro...]]></text>
+		</step3>
+		<step4>
+			<title><![CDATA[¿TE INTERESAN UNOS DATOS ESPECÍFICOS?]]></title>
+			<text><![CDATA[Haz clic en los distintos elementos para activar los datos que quieras ver. A cada dato le corresponde un símbolo que se mostrará en el mapa.<br/>Watch_Dogs WeareData reúne información geolocalizada disponible de forma no exhaustiva; es decir, solo mostramos la información que las fuentes no han dado permiso para compartir.]]></text>
+		</step4>
+		<step5>
+			<title><![CDATA[¿QUIERES SABER MÁS SOBRE TU ZONA ACTUAL?]]></title>
+			<text><![CDATA[En este cuadro puedes ver datos estadísticos sobre el distrito que estás viendo actualmente.]]></text>
+		</step5>
+		<step6>
+			<title><![CDATA[¿SIENTES CURIOSIDAD POR LA GENTE QUE VISITA ESTE SITIO WEB?]]></title>
+			<text><![CDATA[Esta sección te permite conectar con Facebook para descubrir quiénes son los demás usuarios del sitio web y qué datos están mirando actualmente.]]></text>
+		</step6>
+		<step7>
+			<title><![CDATA[¿TE INTERESA OTRA CIUDAD?]]></title>
+			<text><![CDATA[Usa el menú de abajo para explorar más cuidades.]]></text>
+		</step7>
+		<step8>
+			<title><![CDATA[¡DISFRUTA DE TU EXPLORACIÓN!]]></title>
+			<text><![CDATA[Si te hace falta, puedes acceder a este tutorial en cualquier momento con sólo pulsar el botón de Ayuda.]]></text>
+		</step8>
+	</tutorial>
+	<about>
+		<title><![CDATA[Información]]></title>
+		<text1><![CDATA[<U><bold>ACERCA DE WATCH_DOGS WeareData</bold></U><br/>
+		En el videojuego Watch_Dogs, la ciudad de Chicago está controlada por un sistema operativo central (ctOS). Este sistema usa datos para dirigir toda la ciudad y resolver problemas complejos, tales como atascos, la guerra contra el crimen, la gestión energética...
+		Todo esto ha dejado de ser ficción. Las ciudades inteligentes son reales, se pueden ver hoy en día. Todos los días se recopilan y gestionan infinidad de datos en cada una de nuestras modernas ciudades. Datos que están al alcance de cualquiera.<br/><br/>
+		Watch_Dogs WeareData es la primera página web que reúne en un mismo lugar toda la información pública disponible de París, Londres y Berlín. Cada una de estas tres ciudades está recreada en un mapa 3D que permite al usuario descubrir en tiempo real todos los datos que organizan y hacen que dichas ciudades cobren vida. También muestra información sobre los habitantes de esas ciudades gracias a su actividad en las redes sociales.<br/><br/>
+		<bold>Lo que descubrirás aquí son solo hechos y realidad.</bold><br/>
+		Watch_Dogs WeareData reúne información geolocalizada disponible de forma no exhaustiva; es decir, solo mostramos la información que las fuentes no han dado permiso para compartir.<br/>
+		Y aun así, es una cantidad ingente de datos.<br/>
+		Hasta puedes ver, gracias a Facebook Connect, lo que otros usuarios están buscando en la página.<br/><br/>
+		Si te interesa el tema, nos encantaría conocer tus comentarios sobre la página web y sobre nuestro mundo conectado. Todo el mundo tiene un papel que jugar y algo que decir. Manteneos conectados y participad en la conversación en las redes sociales a través de la página de Watch_Dogs en Facebook o a través de Twitter usando el hashtag #watchdogs.<br/><br/><br/>
+		<U><bold>ACERCA DEL VIDEOJUEGO WATCH_DOGS</bold></U><br/>
+		En Watch_Dogs te sumergirás en una recreación de Chicago repleta de vida y completamente conectada. El protagonista de esta historia es Aiden Pearce, un nuevo tipo de justiciero que, con la ayuda de su smartphone, podrá piratear el sistema operativo central de Chicago (ctOS) y controlar prácticamente cualquier elemento de la ciudad. Aiden podrá entrar en las omnipresentes cámaras de seguridad de la ciudad, descargar información personal para localizar a un objetivo, controlar sistemas como los semáforos o el transporte público para detener una persecución y mucho más. La ciudad de Chicago es ahora el arma definitiva. Los aficionados podrán seguir conectados a Watch_Dogs visitando la página web oficial, la página de Facebook o la cuenta de Twitter.<br/>
+		Watch_Dogs llegará a todos los territorios de Europa, Oriente Medio y Asia en Navidades de 2013 para PlayStation®3, el sistema de entretenimiento y videojuegos Xbox 360® de Microsoft, la consola WiiU™ de Nintendo y Windows PC, y también estará presente en el lanzamiento de PlayStation®4 y el sistema de entretenimiento y videojuegos Xbox One de Microsoft.<br/><br/><br/> 
+		<U><bold>ACERCA DE UBISOFT</bold></U><br/>
+		Ubisoft es una empresa líder en la producción, edición y distribución de productos de ocio interactivo en todo el mundo, que ha crecido de forma considerable gracias a sus alianzas y a su potente y variado catálogo de productos. Ubisoft tiene oficinas en 26 países y vende en más de 55 países de todo el mundo. Su compromiso es el de ofrecer videojuegos punteros de la más alta calidad a los consumidores. En el año fiscal 2012-2013, Ubisoft obtuvo unas ventas de 1256 millones de euros. Para saber más sobre la compañía, visita <a href="http://www.ubisoftgroup.com" target="_blank">http://www.ubisoftgroup.com</a><br/><br/><br/><br/><br/>
+		Gracias por usar Watch_Dogs WeareData. ¡Disfrútala!<br/>
+		El equipo de Ubisoft.]]>
+		</text1>
+	</about>
+	<legals>
+		<title><![CDATA[Avisos legales]]></title>
+		<btnTerms><![CDATA[términos y condiciones]]></btnTerms>
+		<btnCredits><![CDATA[fuentes - créditos]]></btnCredits>
+		<text1><![CDATA[
+		<legalsTitle>1 - Datos identificativos de la sociedad:</legalsTitle><br/>
+		Editor: UBISOFT EMEA<br/>
+		Domicilio social: 28 rue Armand Carrel 93108 Montreuil, FRANCIA<br/>
+		Número de teléfono: +33 (0)1 48 18 50 00<br/>
+		Capital social: SARL CON CAPITAL DE 11.959.727 EUROS<br/>
+		Nº de inscripción en el RCS 432.573.624 RCS BOBIGNY (Francia)<br/>
+		Código APE (Actividad Principal de la Empresa): 5821Z / Edición de juegos electrónicos <br/>
+		Proveedor de alojamiento web: BETC DIGITAL - 47 bis rue des Vinaigriers 75010 París (Francia) – +33 (0)1 56 41 35 00<br/><br/>
+		
+		<legalsTitle>2 – Objeto – Presentación de la Página Web</legalsTitle><br/>
+		Las presentes condiciones de uso de la página web "Watch Dogs Wearedata", a la que puede accederse a través de la dirección <a href="http://wearedata.watchdogs.com" target="_blank">http://wearedata.watchdogs.com</a> (en adelante, la "Página Web"), definen las modalidades y condiciones de uso de la Página Web por parte del usuario. Se entenderá por usuario a cualquier persona que acceda a alguna sección de la Página Web o que navegue por ella.<br/>
+		UBISOFT podrá modificar dichas condiciones de uso en todo momento y sin previo aviso. En tal caso, las nuevas condiciones de uso entrarán en vigor desde el momento de su publicación en línea. Recomendamos al usuario que consulte periódicamente las condiciones de uso. De cualquier modo, el simple uso de la Página Web implicará la aceptación de las mismas por parte del usuario<br/>
+		Como parte de la campaña promocional del videojuego "Watch Dogs", la Página Web ofrece al usuario la posibilidad de consultar datos públicos existentes de tres ciudades europeas: París, Londres y Berlín. La Página Web no tiene carácter científico, sino que se ha diseñado exclusivamente con fines de ocio, por lo que la información reflejada no es exhaustiva y no todos los datos están actualizados. Las fuentes de datos utilizadas para su elaboración aparecen citadas en la pestaña "Fuentes - Créditos", donde también figura la fecha de su última actualización.<br/><br/>
+		
+		<legalsTitle>3 - Condiciones de uso de la página web</legalsTitle><br/>
+		La Página Web está destinada a un uso estrictamente privado por parte de particulares. Queda terminantemente prohibido cualquier uso de la misma con fines comerciales, publicitarios o profesionales.<br/>
+		Al acceder a la Página Web, el usuario se compromete a cumplir las presentes condiciones de uso y declara conocer la capacidad y las prestaciones técnicas de su conexión a Internet, así como disponer de cualquier equipo y programa necesarios para navegar por Internet. El usuario eximirá a UBISOFT de toda responsabilidad ante cualquier uso ilegal, inadecuado y/o no autorizado que se haga de la información disponible a través de la Página Web.<br/>
+		UBISOFT se reserva el derecho a cerrar la Página Web o a eliminar o modificar, de pleno derecho, determinadas funciones de la misma, sin previo aviso y sin obligación de indemnización.<br/>
+		Para garantizar un uso óptimo de la página web, el usuario deberá activar los parámetros de JavaScript dentro de la configuración de su explorador de Internet.<br/><br/>
+		
+		<legalsTitle>4 – Límites de uso</legalsTitle><br/>
+		Queda prohibido copiar, vender, explotar, publicar, difundir, reproducir, representar y/o adaptar el contenido previamente existente de la Página Web mediante su uso público o privado e independientemente de sus fines.<br/><br/>
+		
+		<legalsTitle>5 – Propiedad intelectual</legalsTitle><br/>
+		Las animaciones, la música, las fotografías, los artículos, los textos, los dibujos, las ilustraciones, los programas y la iconografía, así como cualquier otra obra que figure en la Página Web, están protegidos por derechos de propiedad intelectual y son propiedad de UBISOFT y/o de sus socios, en su caso. Con respecto a los datos, en la pestaña "Fuentes - Créditos" se menciona el origen de los mismos y, en determinados casos, el titular de los derechos de propiedad intelectual.<br/>
+		A tal efecto, el usuario se compromete a no realizar ninguna de las operaciones que se mencionan a continuación, sin carácter restrictivo: descargar, extraer, almacenar, utilizar, reproducir, vender, comunicar, representar, difundir, adaptar y/o tomar prestados contenidos protegidos por derechos de propiedad intelectual, directa o indirectamente y sea cual sea el tipo de soporte, medio o método utilizado, sin autorización expresa de UBISOFT o de los titulares de dichos derechos especificados en la Página Web.<br/>
+		No se concederá al usuario de la Página Web ninguna licencia ni ninguna autorización que le permita ejercer ningún derecho de propiedad intelectual.<br/>
+		En caso de incumplir las presentes disposiciones, el usuario se expondrá a las correspondientes sanciones civiles y penales contempladas por las leyes aplicables en la materia.<br/><br/>
+
+		<legalsTitle>6 – Cookies/datos personales</legalsTitle><br/>
+		<legalsImportant>Google Analytics</legalsImportant><br/>
+		CEsta página web utiliza Google Analytics, un servicio de análisis de estadísticas de páginas web prestado por Google Inc. (en adelante, "Google"). Google Analytics utiliza las denominadas cookies: archivos de texto que se instalan en el ordenador del usuario para que la página web pueda analizar el uso que este hace de la misma. Google transferirá los datos generados a partir de las cookies en relación con el uso de la página web (incluida la dirección IP) a servidores ubicados en Estados Unidos, donde quedarán almacenados. Google utilizará dicha información para evaluar el uso realizado de la página web, elaborar informes sobre la actividad de la misma destinados a su editor y prestar otros servicios relacionados con dicha actividad y con el uso de Internet. Google podrá comunicar datos a terceros en caso de estar obligado legalmente a ello o cuando el procesamiento de dichos datos corra a cargo de terceros en nombre de Google, incluido, entre ellos, el editor de la página web. Google no cotejará la dirección IP del usuario con ningún otro dato del que disponga. El uso de cookies puede desactivarse seleccionando los parámetros correspondientes de la configuración del explorador. No obstante, dicha desactivación podría impedir el funcionamiento correcto de algunas funciones de la página web. Al utilizar esta página web, el usuario autoriza expresamente que Google pueda procesar sus datos en los supuestos y con los fines anteriormente descritos.<br/><br/>
+		<legalsImportant>Facebook</legalsImportant><br/>
+		Esta página web utiliza Facebook Connect. Para poder usar esta función de manera óptima, se instalarán cookies en su ordenador.<br/>
+		Si desea obtener más información sobre las cookies de Facebook, puede consultar la siguiente página: <a href="http://www.facebook.com/help/cookies" target="_blank">www.facebook.com/help/cookies</a><br/><br/>
+		
+		<legalsImportant>Datos personales</legalsImportant><br/>
+		En determinados supuestos, la Página Web mostrará datos publicados por los usuarios en las páginas web de Facebook, Twitter, Flickr, Foursquare e Instagram.<br/>
+		Cualquier reclamación relativa al carácter público de los datos reproducidos en la Página Web (y extraídos de una de las páginas mencionadas anteriormente) deberá remitirse a dicha página en cuestión (Facebook Twitter, Flickr, Foursquare o Instagram, según el caso) o bien resolverse modificando los parámetros de la cuenta personal del usuario, sin que Ubisoft pueda asumir ninguna responsabilidad al respecto. Ubisoft únicamente se compromete a reflejar en la Página Web, lo antes posible, cualquier modificación de los parámetros de confidencialidad que el usuario haya realizado en una de las páginas anteriormente mencionadas.<br/> 
+		Ubisoft no recopilará ni almacenará datos personales en archivos informáticos.<br/><br/>
+
+		<legalsTitle>7 - Garantías</legalsTitle><br/>
+		La página web se pone a disposición del usuario tal como aparece publicada. Ubisoft no asumirá ninguna responsabilidad ni ofrecerá ninguna garantía en relación con el uso o el resultado del uso de la página web en términos de adecuación, exactitud, exhaustividad, fiabilidad, seguridad u otros.<br/>
+		Dentro de los límites establecidos por las leyes aplicables, Ubisoft se exime de toda responsabilidad en cuanto a la satisfacción del usuario o la capacidad de la página web para responder a un uso determinado. Además, Ubisoft no garantiza que la página web, incluidos los servidores y programas necesarios para su funcionamiento, presten servicio ininterrumpidamente o sin errores, fallos de programación, virus o elementos perjudiciales, ni que dichos errores, fallos de programación, virus o elementos perjudiciales puedan corregirse.<br/> 
+		Por último, Ubisoft no ofrecerá ninguna garantía en relación con el carácter exacto, completo o actualizado de la información, los contenidos y/o los elementos disponibles a través de la página web. En virtud de lo anterior, Ubisoft no proporcionará ninguna garantía a los usuarios ni asumirá ninguna responsabilidad hacia los mismos en relación con las propias acciones que lleven a cabo. <br/>
+		El usuario correrá con todos los gastos y asumirá todos los riesgos derivados del uso de la página web. El usuario asumirá todo riesgo vinculado a la inversión de tiempo y esfuerzo, la pérdida de datos (en especial, cualquier dato relacionado con el juego), los errores, la pérdida de información comercial o cualquier otra circunstancia que sea consecuencia del uso de la Página Web.<br/> 
+		El usuario se compromete a eximir de responsabilidad a UBISOFT y a BETC DIGITAL ante cualquier acción legal iniciada contra dichas empresas o ante cualquier denuncia presentada en contra de las mismas por parte de terceros y derivada del uso de la Página Web realizado por el usuario, o mediante su conexión, en circunstancias que incumplan las condiciones de uso.<br/>
+		Dicha exención de responsabilidad se aplicará asimismo al pago de cualquier cantidad que UBISOFT y BETC DIGITAL estén obligadas a abonar por cualquier concepto, incluidos los honorarios de abogados y tasas judiciales reconocidos o dictados. El uso de la Página Web no implica ninguna garantía de ningún tipo.<br/><br/> 
+		
+		<legalsTitle>8– Leyes aplicables</legalsTitle><br/>
+		Las presentes condiciones de uso se regirán por las leyes francesas.<br/>
+		Cualquier litigio o reclamación se someterá exclusivamente a la jurisdicción de los tribunales franceses, aun en caso de pluralidad de demandados o citación en garantía.<br/><br/>
+		
+		<legalsTitle>9 - Créditos</legalsTitle><br/>
+		Esta página web ha sido diseñada y elaborada por BETC DIGITAL.<br/><br/>
+
+		La página web no está patrocinada en ningún caso por Facebook, Twitter, Flickr, Foursquare o Instagram, ni gestionada, autorizada o vinculada de ningún modo a dichas páginas.<br/>]]>
+		</text1>
+		<text2><![CDATA[
+		Ubisoft te recuerda que esta web es ficticia y que la información proporcionada es solo indicativa, y parte de la misma ha sido modificada para el desarrollo de la web.<br/><br/>
+		 
+		Por consiguiente, Ubisoft no puede garantizar el carácter exhaustivo de la información proporcionada en esta web. La fecha de actualización más reciente de la información de esta web aparece indicada junto con la fuente correspondiente. <br/>
+		Los proveedores de la información no han tomado parte en el desarrollo de la web, por lo que no pueden garantizar de ningún modo la calidad ni la precisión de la información proporcionada.<br/><br/>
+		 
+		Se anima a los usuarios de la web a consultar las fuentes y las licencias asociadas para obtener más detalles sobre la información proporcionada.<br/><br/><br/>
+
+		 
+		PARÍS<br/>
+		> TRANSPORTE<br/>
+		> METRO<br/>
+		Frecuencia y circulación de trenes<br/>
+		Fecha: 19/04/2013 <br/>
+		Fuente = RATP <a href="http://data.ratp.fr/fr/les-donnees/fiche-de-jeu-de-donnees/dataset/offre-transport-de-la-ratp-format-gtfs.html?tx_icsoddatastore_pi1%5BreturnID%5D=38" target="_blank" > http://data.ratp.fr/fr/les-donnees/fiche-de-jeu-de-donnees/dataset/offre-transport-de-la-ratp-format-gtfs.html?tx_icsoddatastore_pi1%5BreturnID%5D=38</a><br/>
+		Licencia abierta de ODbL: <a href="http://opendatacommons.org/licenses/odbl/1.0/" target="_blank" >http://opendatacommons.org/licenses/odbl/1.0/</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/paris_gtfs.sql.zip.zip" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/paris_gtfs.sql.zip.zip</a><br/><br/>
+
+		Ubicación de estaciones de metro<br/>
+		Fecha: 18/12/2012  <br/>
+		Fuente: RATP <a href="http://data.ratp.fr/fr/les-donnees/fiche-de-jeu-de-donnees/dataset/positions-geographiques-des-stations-du-reseau-ratp.html" target="_blank" >http://data.ratp.fr/fr/les-donnees/fiche-de-jeu-de-donnees/dataset/positions-geographiques-des-stations-du-reseau-ratp.html</a><br/>
+		Licencia abierta de Etalab:  <br/>
+		<a href="http://www.data.gouv.fr/Licence-Ouverte-Open-Licence" target="_blank" >http://www.data.gouv.fr/Licence-Ouverte-Open-Licence</a><br/><br/>
+
+		Número de pasajeros por día y estación<br/>
+		Fecha: 31/07/2012  <br/>
+		Fuente: RATP <a href="http://data.ratp.fr/fr/les-donnees/fiche-de-jeu-de-donnees/dataset/trafic-annuel-entrant-par-station-2011.html" target="_blank" > http://data.ratp.fr/fr/les-donnees/fiche-de-jeu-de-donnees/dataset/trafic-annuel-entrant-par-station-2011.html</a><br/>
+		Licencia abierta de Etalab:  <a href="http://www.data.gouv.fr/Licence-Ouverte-Open-Licence" target="_blank" >http://www.data.gouv.fr/Licence-Ouverte-Open-Licence</a><br/><br/>
+
+		> SISTEMA DE ALQUILER DE BICIS<br/>
+		Ubicación de estaciones y disponibilidad de bicis<br/>
+		Fecha: 30/05/2013 (tiempo real, actualizado cada 10 minutos)<br/>
+		Fuentes: JC Decaux  <a href="https://developer.jcdecaux.com" target="_blank" >https://developer.jcdecaux.com</a><br/>
+		Licencia abierta de Etalab: <a href="https://developer.jcdecaux.com/#/opendata/licence" target="_blank" >https://developer.jcdecaux.com/#/opendata/licence </a><br/><br/>
+
+		> RED<br/>
+		> SERVICIO DE INTERNET<br/>
+		Ubicación<br/>
+		Fecha: abril de 2013<br/>
+		Fuente: Orange<a href="http://www.orange.com/fr/content/download/3259/28413/version/6/file/PODIavril2013.pdf" target="_blank" >http://www.orange.com/fr/content/download/3259/28413/version/6/file/PODIavril2013.pdf</a>
+		Con la autorización de Orange.<br/>
+		París / Ubicación de MDF:<br/>
+		La ubicación de los Main Distribution Frames (MDF) aparece señalada por sus nombres y barrios, y por consiguiente, son aproximados.<br/><br/>
+
+		Número aproximado de abonados<br/>
+		Fecha: 2013 <br/>
+		Fuente: número aproximado de abonados. Degrouptest  <a href="http://www.degroupnews.com/carte-nra-adsl/ile-de-france/paris/" target="_blank" > http://www.degroupnews.com/carte-nra-adsl/ile-de-france/paris/</a><br/>
+		Crédito: datos proporcionados por DegroupTest.com.<br/><br/>
+
+		> ROUTERS WIFI  <br/>
+		Fecha: 12/04/2012  <br/>
+		Fuente: Parisdata / OpenData París - Ayuntamiento de París  <a href="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=125&portlet_id=106" target="_blank" >http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=125&portlet_id=106</a><br/>
+		Licencia de ODbL - Ciudad de París:  <a href="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?page_id=10" target="_blank" >http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?page_id=10</a><br/>
+		<a href="http://opendata.paris.fr/opendata/document?id=78&id_attribute=48" target="_blank" >http://opendata.paris.fr/opendata/document?id=78&id_attribute=48</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/paris_wifi.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/paris_wifi.csv</a><br/><br/>
+
+		> MÓVIL<br/>
+		Antenas repetidoras / Tipo de antena<br/>
+		Fecha: 22/04/2013  <br/>
+		Fuente: ANFR <a href="http://www.cartoradio.fr/" target="_blank" >http://www.cartoradio.fr/</a><br/>
+		 <a href="http://www.cartoradio.fr/cartoradio/web/#lonlat/2.352241/48.856617/4049" target="_blank" >http://www.cartoradio.fr/cartoradio/web/#lonlat/2.352241/48.856617/4049</a><br/>
+		Licencia : <a href="http://www.anfr.fr/fr/mentions-legales.html" target="_blank" >http://www.anfr.fr/fr/mentions-legales.html</a><br/><br/>
+
+		Campos electromagnéticos / Fuerza del campo<br/>
+		Fecha: 22/04/2013  <br/>
+		Fuente: ANFR  <a href="http://www.cartoradio.fr/" target="_blank" >http://www.cartoradio.fr/</a><br/>
+		 <a href="http://www.cartoradio.fr/cartoradio/web/#lonlat/2.352241/48.856617/4049" target="_blank" >http://www.cartoradio.fr/cartoradio/web/#lonlat/2.352241/48.856617/4049</a><br/>
+		Licencia: <a href="http://www.anfr.fr/fr/mentions-legales.html" target="_blank" >http://www.anfr.fr/fr/mentions-legales.html</a><br/><br/>
+
+		> DISPOSITIVOS URBANOS<br/>
+		> CAJEROS AUTOMÁTICOS<br/>
+		Fecha: 2013 <br/>
+		Fuente: Openstreetmap  <a href="http://www.openstreetmap.org" target="_blank" >http://www.openstreetmap.org/</a>/<br/>
+		Licencia: © OpenStreetMap colaboradores  <a href="http://www.openstreetmap.org/copyright" target="_blank" > http://www.openstreetmap.org/copyright</a><br/>
+		Licencia de ODbL: <a href="http://opendatacommons.org/licenses/odbl/" target="_blank" >http://opendatacommons.org/licenses/odbl/</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/paris_dab.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/paris_dab.csv</a><br/><br/>
+
+		> CARTELES PUBLICITARIOS: Colocación y número de personas que lo ven <br/>
+		Fecha: 2013 <br/>
+		Fuente: Clear Channel Francia <br/>
+		<img src="http://wearedata.watchdogs.com/assets/img/CLEAR_CHANNEL_01.png"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		
+		> SEMÁFOROS<br/>
+		Fecha: 12/04/2011  <br/>
+		Fuente: Parisdata / OpenData París - Ciudad de París <a href="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=103&portlet_id=106" target="_blank" >http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=103&portlet_id=106</a><br/>
+		Licencia de ODbL - Ciudad de París <a href="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?page_id=10" target="_blank" >http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?page_id=10</a><br/>
+		<a href="http://opendata.paris.fr/opendata/document?id=78&id_attribute=48" target="_blank" >http://opendata.paris.fr/opendata/document?id=78&id_attribute=48</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/paris_signals.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/paris_signals.csv</a><br/><br/>
+
+		> RADARES<br/>
+		Fecha: 2013  <br/>
+		Fuente: Openstreetmap  <a href="http://www.openstreetmap.org/" target="_blank" >http://www.openstreetmap.org/</a><br/>
+		Licencia: © OpenStreetMap colaboradores <a href="http://www.openstreetmap.org/copyright" target="_blank" >http://www.openstreetmap.org/copyright</a><br/>
+		Licencia de ODbL:  <a href="http://opendatacommons.org/licenses/odbl/" target="_blank" >http://opendatacommons.org/licenses/odbl/</a><br/>
+		Descarga el documento adaptado:  <a href="http://wearedata.watchdogs.com/assets/csv/odbl/paris_radars.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/paris_radars.csv</a><br/><br/>
+
+
+		> ASEOS PÚBLICOS<br/>
+		Fecha: 04/04/2011  <br/>
+		Fuente: Parisdata / OpenData París - Ayuntamiento de París  <a href="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=93&portlet_id=106" target="_blank" >http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=93&portlet_id=106</a><br/>
+		Licencia de ODbL - Ciudad de París <a href="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?page_id=10" target="_blank" >http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?page_id=10</a><br/>
+		<a href="http://opendata.paris.fr/opendata/document?id=78&id_attribute=48" target="_blank" >http://opendata.paris.fr/opendata/document?id=78&id_attribute=48</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/paris_toilets.csv" target="_blank" >ttp://wearedata.watchdogs.com/assets/csv/paris_toilets.csv</a><br/><br/>
+
+		> CÁMARAS DE VIDEOVIGILANCIA<br/>
+		Fecha: 12/04/2012 <br/>
+		Fuente: Comisión de Policía de París  <a href="http://www.data.gouv.fr/DataSet/551635?xtmc=videoprotection&xtcr=1" target="_blank" > http://www.data.gouv.fr/DataSet/551635?xtmc=videoprotection&xtcr=1</a><br/>
+		Licencia abierta: <a href="https://www.data.gouv.fr/Licence-Ouverte-Open-Licence" target="_blank" >https://www.data.gouv.fr/Licence-Ouverte-Open-Licence</a><br/><br/>
+
+		> ESTADÍSTICAS POR BARRIOS<br/>
+		> SALARIO MENSUAL<br/>
+		Fecha: 2010  <br/>
+		Fuente: INSEE, Dads (datos sociales), Expediente de empleados en el lugar de residencia  <a href="http://www.insee.fr/fr/themes/detail.asp?reg_id=99&ref_id=base-cc-salaire-net-horaire-moyen" target="_blank" >http://www.insee.fr/fr/themes/detail.asp?reg_id=99&ref_id=base-cc-salaire-net-horaire-moyen</a><br/>
+		Licencia:  <a href="http://www.insee.fr/fr/publications-et-services/default.asp?page=copyright.htm" target="_blank" >http://www.insee.fr/fr/publications-et-services/default.asp?page=copyright.htm</a><br/><br/>
+
+		> ÍNDICE DE DESEMPLEO<br/>
+		Fecha: 2009/2011  <br/>
+		Fuentes: INSEE, registro de estado civil y estimación de población a 1 de enero, uso principal de RP2009 y RP1999<a href="http://www.insee.fr/fr/bases-de-donnees/esl/comparateur.asp?codgeo=arm-75101" target="_blank" >http://www.insee.fr/fr/bases-de-donnees/esl/comparateur.asp?codgeo=arm-75101</a><br/>
+		Licencia:  <a href="http://www.insee.fr/fr/publications-et-services/default.asp?page=copyright.htm" target="_blank" >http://www.insee.fr/fr/publications-et-services/default.asp?page=copyright.htm</a><br/><br/>
+
+		> ÍNDICE DE DELITOS<br/>
+		Fecha: 2010 <br/>
+		Fuentes: Comisión de Policía / ONDRP (Cuerpo Nacional Francés de Supervisión de la Delincuencia y las Respuestas Penales) Estado de procesamiento 4001 para la ciudad de París en 2010, DCPJ (Dirección Central de Policía Judicial Francesa) / Procesamiento ONDRP<br/>
+		Licencia:  <a href="http://www.inhesj.fr/sites/default/files/RA2012/Licence-Ouverte-Open-Licence.pdf" target="_blank" >http://www.inhesj.fr/sites/default/files/RA2012/Licence-Ouverte-Open-Licence.pdf</a><br/>
+		Crédito: Estado Anual 4001, DCPJ / Procesamiento ONDRP<br/><br/>
+
+		> CONSUMO DE ELECTRICIDAD POR BARRIO <br/>
+		Fecha: 2005 <br/>
+		Fuentes: Instituto de Planificación y Urbanismo Región de Île-de-France. Datos procedentes de una simulación realizada por AirParif y mapeada por el IAU-îdF.<a href="http://www.iau-idf.fr/cartes/cartes-et-fiches-interactives/visiau-energie-center.html" target="_blank" >http://www.iau-idf.fr/cartes/cartes-et-fiches-interactives/visiau-energie-center.html</a><br/>
+		Licencia: © IAU-Île-de-France - Centro Energético Visiau <a href="http://www.iau-idf.fr/fileadmin/user_upload/SIG/cartes_telecharge/visiau/Conditions_utilisation_Visiau.pdf" target="_blank" >http://www.iau-idf.fr/fileadmin/user_upload/SIG/cartes_telecharge/visiau/Conditions_utilisation_Visiau.pd</a><br/><br/>
+		
+		LONDRES<br/>
+		
+		> MÓVIL<br/>
+		Ubicación de las antenas repetidoras / tipo de antena<br/>
+		Fecha: 2012 <br/>
+		Fuente :  <a href="http://www.sitefinder.ofcom.org.uk" target="_blank" >http://www.sitefinder.ofcom.org.uk</a><br/>
+		Licencia: © Ofcom  <a href="http://www.ofcom.org.uk/terms-of-use/" target="_blank" >http://www.ofcom.org.uk/terms-of-use/</a><br/><br/>
+
+		Campos electromagnéticos / Fuerza del campo<br/>
+		Fecha: desde 2008 hasta 2011 <br/>
+		Fuente:  <a href="http://stakeholders.ofcom.org.uk/sitefinder/mobile-base-station-audits" target="_blank" >http://stakeholders.ofcom.org.uk/sitefinder/mobile-base-station-audits</a><br/>
+		Licencia: © Ofcom  <a href="http://www.ofcom.org.uk/terms-of-use/" target="_blank" >http://www.ofcom.org.uk/terms-of-use/</a><br/><br/>
+
+		> DISPOSITIVOS URBANOS<br/>
+		> CAJEROS AUTOMÁTICOS<br/>
+		Fecha: 2013<br/>
+		Fuente: Openstreetmap <a href="http://www.openstreetmap.org/" target="_blank" >http://www.openstreetmap.org/</a><br/>
+		© OpenStreetMap colaboradores<br/>
+		Licencia de ODbL <a href="http://opendatacommons.org/licenses/odbl/" target="_blank" >http://opendatacommons.org/licenses/odbl/</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/london_atms.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/london_atms.csv</a><br/><br/>
+
+		> SEMÁFOROS<br/>
+		Fecha: 2013<br/>
+		Fuente: Openstreetmap  <a href="http://www.openstreetmap.org/" target="_blank" >http://www.openstreetmap.org/</a><br/>
+		© OpenStreetMap colaboradores<br/>
+		Licencia de ODbL  <a href="http://opendatacommons.org/licenses/odbl/" target="_blank" >http://opendatacommons.org/licenses/odbl/</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/london_signals.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/london_signals.csv</a><br/><br/>
+
+		> RADARES<br/>
+		Fecha: 2013<br/>
+		Fuente: Openstreetmap <a href="http://www.openstreetmap.org/" target="_blank" >http://www.openstreetmap.org/</a><br/>
+		© OpenStreetMap colaboradores<br/>
+		Licencia de ODbL <a href="http://opendatacommons.org/licenses/odbl/" target="_blank" >http://opendatacommons.org/licenses/odbl/</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/london_radars.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/london_radars.csv</a><br/><br/>
+
+		> ASEOS PÚBLICOS<br/>
+		Fecha: 2013<br/>
+		Fuente: Openstreetmap <a href="http://www.openstreetmap.org/" target="_blank" >http://www.openstreetmap.org/</a><br/>
+		© OpenStreetMap colaboradores<br/>
+		Licencia de ODbL <a href="http://opendatacommons.org/licenses/odbl/" target="_blank" >http://opendatacommons.org/licenses/odbl/</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/london_toilets.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/london_toilets.csv</a><br/><br/><br/>
+
+		> ESTADÍSTICAS POR BARRIOS<br/>
+		> SALARIO MENSUAL <br/>
+		Fecha: 2011  <br/>
+		Fuente: Instituto Nacional de Estadística. Encuesta Anual de Estructura Salarial, 2011. Resultados revisados (SOC 2010), Tabla 8 - Lugar de residencia según autoridad local. <br/>
+		<a href="http://www.ons.gov.uk/ons/publications/re-reference-tables.html?edition=tcm%3A77-280145" target="_blank" >http://www.ons.gov.uk/ons/publications/re-reference-tables.html?edition=tcm%3A77-280145</a><br/>
+		Licencia: Adaptación de datos provenientes del Instituto Nacional de Estadística, bajo licencia de Open Government Licence v.1.0 <br/>
+		<a href="http://www.ons.gov.uk/ons/site-information/information/creative-commons-license/index.html" target="_blank" >http://www.ons.gov.uk/ons/site-information/information/creative-commons-license/index.html</a><br/><br/>
+
+		> ÍNDICE DE DESEMPLEO<br/>
+		Fecha: Oct. 2010 - Sep. 2011  <br/>
+		Autor: Equipo de exclusión social área metropolitana, Londres. 
+		Fuentes: Unidad de Inteligencia Metropolitana de Londres, basado en el modelo de la ONS de datos de desempleo en áreas locales, derivado de los datos de la Encuesta Anual de Población y de Demandantes de Empleo.<br/> 
+		<a href="http://lseo.org.uk/datastore/package/unemployment-london-2012" target="_blank" >http://lseo.org.uk/datastore/package/unemployment-london-2012</a><br/>
+		Licencia: Open Government Licence v.1.0 <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/" target="_blank" >http://www.nationalarchives.gov.uk/doc/open-government-licence/</a><br/><br/>
+
+		> ÍNDICE DE DELITOS<br/>
+		Fecha: 2011/2012 <br/>
+		Fuentes: Unidad de Inteligencia Metropolitana de Londres. <br/>
+		Servicio de Policía Metropolitana <a href="http://data.london.gov.uk/datastore/package/crime-rates-borough" target="_blank" >http://data.london.gov.uk/datastore/package/crime-rates-borough</a><br/>
+		via <a href="http://data.london.gov.uk/datastore/package/london-borough-profiles" target="_blank" >http://data.london.gov.uk/datastore/package/london-borough-profiles</a><br/>
+		Datos correctos solo para abril de 2013.<br/><br/>
+
+		> CONSUMO ELÉCTRICO <br/>
+		Fecha: 2011 <br/>
+		Fuentes: Departamento de Energía y Cambio Climático <a href="http://data.london.gov.uk/datastore/package/electricity-consumption-borough" target="_blank" >http://data.london.gov.uk/datastore/package/electricity-consumption-borough</a><br/>
+		Licencia: derechos de autor de la Corona.<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/" target="_blank" >http://www.nationalarchives.gov.uk/doc/open-government-licence/</a><br/><br/><br/>
+
+		BERLÍN<br/>
+		> TRANSPORTE<br/>
+		> METRO<br/>
+		Frecuencia y circulación de trenes<br/>
+		Fecha: 2012 <br/>
+		Fuente: Verkehrsverbund Berlin-Brandenburg <a href="http://daten.berlin.de/datensaetze/vbb-fahrplan2012" target="_blank" >http://daten.berlin.de/datensaetze/vbb-fahrplan2012</a><br/>
+		Licencia: <a href="http://creativecommons.org/licenses/by/3.0/de/deed.en" target="_blank" >http://creativecommons.org/licenses/by/3.0/de/deed.en</a><br/><br/>
+
+		Ubicación de las estaciones<br/>
+		Fecha: 2012 <br/>
+		Fuente: Verkehrsverbund Berlin-Brandenburg. <a href="http://datenfragen.de/openvbb/Bahnhoefe_mit_Zugangskoordinaten_GK4_lon-lat_Auswahl.xlsx" target="_blank" >http://datenfragen.de/openvbb/Bahnhoefe_mit_Zugangskoordinaten_GK4_lon-lat_Auswahl.xlsx</a><br/>
+		Licencia: <a href="http://creativecommons.org/licenses/by/3.0/de/deed.en" target="_blank" >http://creativecommons.org/licenses/by/3.0/de/deed.en</a><br/><br/>
+
+		> SISTEMA DE ALQUILER DE BICIS<br/>
+		Ubicación de las estaciones<br/>
+		Fecha: 2013 <br/>
+		Fuente: basado en OpenStreetMap<a href="http://www.openstreetmap.org/" target="_blank" >http://www.openstreetmap.org/</a><br/>
+		Licencia: con el permiso de Deutsche Bahn © OpenStreetMap colaboradores. Licencia de ODbL <a href="http://opendatacommons.org/licenses/odbl/" target="_blank" >http://opendatacommons.org/licenses/odbl/</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/berlin_bicycles.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/berlin_bicycles.csv</a><br/><br/>
+
+		> RED<br/>
+		> SERVICIO DE INTERNET<br/>
+		Fecha: 2013<br/>
+		Fuente: <a href="http://selke.de/hvt-standorte/" target="_blank" >http://selke.de/hvt-standorte/</a><br/>
+		Con la autorización de Olaf Selke.<br/><br/>
+
+		> ROUTERS WIFI<br/>
+		Fecha: 20/11/2012 <br/>
+		Fuente: Senatsverwaltung für Wirtschaft, Technologie und Forschung <a href="http://daten.berlin.de/datensaetze/wlan-standorte-berlin" target="_blank" >http://daten.berlin.de/datensaetze/wlan-standorte-berlin</a><br/>
+		Licencia: <a href="http://creativecommons.org/licenses/by/3.0/de/deed.en" target="_blank" >http://creativecommons.org/licenses/by/3.0/de/deed.en</a><br/><br/>
+
+		> MÓVIL<br/>
+		Ubicación de las antenas repetidoras <br/>
+		Fecha: 05/2013 <br/>
+		Fuente: Proyecto Open Cell ID <a href="http://opencellid.de/" target="_blank" >http://opencellid.de/</a><br/>
+		Licencia: CC-BY-SA - <a href="http://creativecommons.org/licenses/by-sa/2.0/de/deed.en" target="_blank" >http://creativecommons.org/licenses/by-sa/2.0/de/deed.en</a><br/>
+
+		> DISPOSITIVOS URBANOS<br/>
+		> CAJEROS AUTOMÁTICOSS<br/>
+		Fecha: 2013 <br/>
+		Fuente: Openstreetmap <a href="http://www.openstreetmap.org/" target="_blank" >http://www.openstreetmap.org/</a><br/>
+		Licencia: © OpenStreetMap colaboradores  <a href="http://www.openstreetmap.org/copyright" target="_blank" >http://www.openstreetmap.org/copyright</a><br/>
+		Licencia de ODbL: <a href="http://opendatacommons.org/licenses/odbl/" target="_blank" >http://opendatacommons.org/licenses/odbl/</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/berlin_atms.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/berlin_atms.csv</a><br/><br/>
+
+		> SEMÁFOROS<br/>
+		Fecha: 2013 <br/>
+		Fuente: Openstreetmap <a href="http://www.openstreetmap.org" target="_blank" >http://www.openstreetmap.org</a><br/>
+		Licencia: © OpenStreetMap colaboradores <a href="http://www.openstreetmap.org/copyright" target="_blank" >http://www.openstreetmap.org/copyright</a><br/>
+		Licencia de ODbL: <a href="http://opendatacommons.org/licenses/odbl/" target="_blank" >http://opendatacommons.org/licenses/odbl/</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/berlin_signals.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/berlin_signals.csv</a><br/>
+
+		> RADARES<br/>
+		Fecha: 2013 <br/>
+		Fuente: Openstreetmap <a href="http://www.openstreetmap.org" target="_blank" >http://www.openstreetmap.org</a><br/>
+		Licencia: © OpenStreetMap colaboradores <a href="http://www.openstreetmap.org/copyright" target="_blank" >http://www.openstreetmap.org/copyright</a><br/>
+		Licencia de ODbL:  <a href="http://opendatacommons.org/licenses/odbl/" target="_blank" >http://opendatacommons.org/licenses/odbl/</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/berlin_radars.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/berlin_radars.csv</a><br
+
+		> ASEOS PÚBLICOS<br/>
+		Fecha: 2013 <br/>
+		Fuente: Openstreetmap <a href="http://www.openstreetmap.org" target="_blank" >http://www.openstreetmap.org</a><br/>
+		Licencia: © OpenStreetMap colaboradores <a href="http://www.openstreetmap.org/copyright" target="_blank" >http://www.openstreetmap.org/copyright</a><br/>
+		Licencia de ODbL: <a href="http://opendatacommons.org/licenses/odbl/" target="_blank" >http://opendatacommons.org/licenses/odbl/</a><br/>
+		Descarga el documento adaptado:  <a href="http://wearedata.watchdogs.com/assets/csv/odbl/berlin_toilets.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/berlin_toilets.csv</a><br/>
+
+		> CÁMARAS DE VIDEOVIGILANCIA<br/>
+		Fecha: 2013 <br/>
+		Fuente: Openstreetmap <a href="http://www.openstreetmap.org" target="_blank" >http://www.openstreetmap.org</a><br/>
+		Licencia: © OpenStreetMap colaboradores <a href="http://www.openstreetmap.org/copyright" target="_blank" >http://www.openstreetmap.org/copyright</a><br/>
+		Licencia de ODbL: <a href="http://opendatacommons.org/licenses/odbl/" target="_blank" >http://opendatacommons.org/licenses/odbl/</a><br/>
+		Descarga el documento adaptado: <a href="http://wearedata.watchdogs.com/assets/csv/odbl/berlin_cctvs.csv" target="_blank" >http://wearedata.watchdogs.com/assets/csv/odbl/berlin_cctvs.csv</a><br
+
+		> ESTADÍSTICAS POR BARRIOS<br/>
+		> SALARIO MENSUAL <br/>
+		Fuente: Bundesagentur für Arbeit; Statistik-Service Ost. <br/>
+		Créditos: con la autorización de Bundesagentur für Arbeit; Statistik-Service Ost.<br/><br/>
+
+		> ÍNDICE DE DESEMPLEO<br/>
+		Fuente: Bundesagentur für Arbeit; Statistik-Service Ost.<br/>
+		Créditos: con la autorización de Bundesagentur für Arbeit; Statistik-Service Ost.<br/>
+
+		> ÍNDICE DE DELITOS<br/>
+		Fecha: 2011/2012 <br/>
+		Fuente: <a href="http://www.berlin.de/polizei/kriminalitaet/pks.html" target="_blank" >http://www.berlin.de/polizei/kriminalitaet/pks.html/a><br/>
+		Mención: "Nachdruck und sonstige Vervielfältigungen - auch auszugsweise - nur mit Quellenangabe gestattet". Con la autorización de Der Polizeipräsident de Berlín.<br/><br/>
+
+		> CONSUMO ELÉCTRICO <br/>
+		Fecha: 2008 <br/>
+		Fuente: Stromnetz Berlin GmbH Historie ab 2008 - Jahreshöchstlast der Netzlast (Berlín) <br/>
+		<a href="http://netzdaten-berlin.de/web/guest/suchen/-/details/historie-ab-2008--jahreshochstlast-der-netzlast-berlin" target="_blank" >http://netzdaten-berlin.de/web/guest/suchen/-/details/historie-ab-2008--jahreshochstlast-der-netzlast-berlin</a><br/>
+		Licencia : <a href="http://creativecommons.org/licenses/by/3.0/de/deed.en" target="_blank" >http://creativecommons.org/licenses/by/3.0/de/deed.en</a><br/><br/>
+
+		SOCIAL<br/>
+		> FOURSQUARE<br/>
+		<a href="https://developer.foursquare.com/" target="_blank" >https://developer.foursquare.com/</a><br/><br/>
+
+		> FLICKR <br/>
+		Licencia: creative commons<br/>
+		Acreditación<br/>
+		<a href="http://creativecommons.org/licenses/by/2.0/" target="_blank" >http://creativecommons.org/licenses/by/2.0/</a><br/>
+		Acreditación-ShareAlike <br/>
+		<a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank" >http://creativecommons.org/licenses/by-sa/2.0/</a><br/>
+		Acreditación-NoDerivs<br/>
+		<a href="http://creativecommons.org/licenses/by-nd/2.0/" target="_blank" >http://creativecommons.org/licenses/by-nd/2.0/</a><br/><br/>
+
+		> TWITTER<br/>
+		<a href="https://dev.twitter.com/terms/display-requirements" target="_blank" >https://dev.twitter.com/terms/display-requirements</a><br/>
+		<a href="https://dev.twitter.com/terms/api-terms" target="_blank" >https://dev.twitter.com/terms/api-terms</a><br/><br/>
+
+		> INSTAGRAM<br/>
+		<a href="http://instagram.com/developer/" target="_blank" >http://instagram.com/developer/</a>]]>
+		</text2>
+	</legals>
+
+	<liveActivities>
+		
+		<title0><![CDATA[Actividades en directo]]></title0>
+		<text01><![CDATA[Accede a datos sobre gente]]></text01>
+		<text02><![CDATA[Conéctate para mostrar datos de gente]]></text02>
+		<faceBookConnectButton><![CDATA[Conectar]]></faceBookConnectButton>
+		<feed0><![CDATA[Viendo ahora...]]></feed0>
+		
+		<title1><![CDATA[Identidad]]></title1>
+		<text11><![CDATA[Viendo ahora]]></text11>
+		<title2><![CDATA[Actividades en directo]]></title2>
+		<feed1><![CDATA[Viendo ahora]]></feed1>
+		
+		<popinTitle><![CDATA[Aviso:]]></popinTitle>
+		<disclaimerText><![CDATA[La  información que compartes a través de Facebook Connect sólo será visible para otros usuarios de esta página web en el panel de "Actividades en Vivo". Sólo mostraremos información desde la pestaña "Información" en tu perfil de Facebook. Ningún dato será tratado, guardado o usado por Ubisoft después de tu visita.]]></disclaimerText>
+		<okButton><![CDATA[ACEPTAR]]></okButton>
+		<cancelButton><![CDATA[CANCELAR]]></cancelButton>
+		<fakeActivities>
+			<data>
+				<user><![CDATA[1#0[[[[}}}###0[[[[}}}###0[[[[}}}##]]]></user>
+				<lookingAt><![CDATA[###0[[[[}}]]></lookingAt>
+			</data>
+			<data>
+				<user><![CDATA[2#0[[[#0[[[[}}}#0[[[[}}}####[}}}##]]]></user>
+				<lookingAt><![CDATA[}}}###0[]]></lookingAt>
+			</data>
+			<data>
+				<user><![CDATA[3#0#0[[[[}}}##[[[[}#0[[[[}}}##}}##]]]></user>
+				<lookingAt><![CDATA[[[[[}}}#]]></lookingAt>
+			</data>
+			<data>
+				<user><![CDATA[4#0#0[[[[}}}##[[[#0[[[[}}}##}}}##]]]></user>
+				<lookingAt><![CDATA[}####[}]]></lookingAt>
+			</data>
+			<data>
+				<user><![CDATA[5#0[[#0[[[[}#0[[[[}}}##}}##[[}}}##]]]></user>
+				<lookingAt><![CDATA[##[[[[}#0]]></lookingAt>
+			</data>
+		</fakeActivities>
+	
+	</liveActivities>
+
+	<areaStats>
+		
+		<title><![CDATA[Estadísticas de la zona]]></title>
+		<incomeText><![CDATA[Salario medio]]></incomeText>
+		<unemploymentText><![CDATA[Índice de desempleo]]></unemploymentText>
+		<sourceQuotation><![CDATA[Estadística de la Agencia Federal de Empleo]]></sourceQuotation>
+		<crimeInfractionText><![CDATA[Índice de delitos]]></crimeInfractionText>
+		<electricityConsumption><![CDATA[Consumo de electricidad]]></electricityConsumption>
+		<infoPopinBtn><![CDATA[[?]]]></infoPopinBtn>
+		<infoPopinTxtIncome><![CDATA[Salario mensual medio por empleado]]></infoPopinTxtIncome>
+		<infoPopinTxtUnemployment><![CDATA[Porcentaje de la población activa que no tiene trabajo]]></infoPopinTxtUnemployment>
+		<infoPopinTxtCrime><![CDATA[Número de críemes grabados por la policía por 1000 inhabitantes en un año]]></infoPopinTxtCrime>
+		<infoPopinTxtElectricity><![CDATA[Consumo medio de electricidad en un año]]></infoPopinTxtElectricity>
+		
+	</areaStats>
+
+	<dataFilter>
+		
+		<transports><![CDATA[TRANSPORTE]]></transports>
+		<metro><![CDATA[METRO]]></metro>
+		<bicycle><![CDATA[BICICLETAS PÚBLICAS]]></bicycle>
+		<auto><![CDATA[TRÁFICO DE AUTOMÓVILES]]></auto>
+
+		<networks><![CDATA[REDES]]></networks>
+		<electromagnetic><![CDATA[CAMPOS ELECTROMAGNÉTICOS]]></electromagnetic>
+		<internetRelays><![CDATA[REPETIDOR DE INTERNET]]></internetRelays>
+		<wifiHotSpots><![CDATA[ZONAS WI-FI]]></wifiHotSpots>
+		<mobile><![CDATA[MÓVIL]]></mobile>
+
+		<streetFurniture><![CDATA[MOBILIARIO URBANO]]></streetFurniture>
+		<atm><![CDATA[CAJEROS AUTOMÁTICOS]]></atm>
+		<ad><![CDATA[CARTELES PUBLICITARIOS]]></ad>
+		<traffic><![CDATA[SEMÁFOROS]]></traffic>
+		<toilets><![CDATA[ASEOS PÚBLICOS]]></toilets>
+		<cameras><![CDATA[CÁMARAS DE SEGURIDAD]]></cameras>
+
+		<social><![CDATA[SOCIAL]]></social>
+		<twitter><![CDATA[TWEETS]]></twitter>
+		<instagram><![CDATA[INSTAGRAM]]></instagram>
+		<fourSquare><![CDATA[FOURSQUARE]]></fourSquare>
+		<flickr><![CDATA[FLICKR]]></flickr>
+		
+	</dataFilter>
+	<dataLabel>
+		
+		<transports><![CDATA[TRANSPORTE]]></transports>
+		<metro><![CDATA[METRO]]></metro>
+		<bicycle><![CDATA[BICICLETAS PÚBLICAS]]></bicycle>
+		<auto><![CDATA[TRÁFICO DE AUTOMÓVILES]]></auto>
+
+		<networks><![CDATA[REDES]]></networks>
+		<electromagnetic><![CDATA[CAMPOS ELECTROMAGNÉTICOS]]></electromagnetic>
+		<internetRelays><![CDATA[REPETIDOR DE INTERNET]]></internetRelays>
+		<wifiHotSpots><![CDATA[ZONAS WI-FI]]></wifiHotSpots>
+		<mobile><![CDATA[MÓVIL]]></mobile>
+
+		<streetFurniture><![CDATA[MOBILIARIO URBANO]]></streetFurniture>
+		<atm><![CDATA[CAJEROS AUTOMÁTICOS]]></atm>
+		<ad><![CDATA[CARTELES PUBLICITARIOS]]></ad>
+		<traffic><![CDATA[SEMÁFOROS]]></traffic>
+		<radars><![CDATA[SPEED RADAR]]></radars>
+		<toilets><![CDATA[ASEOS PÚBLICOS]]></toilets>
+		<cameras><![CDATA[CÁMARAS DE SEGURIDAD]]></cameras>
+
+		<social><![CDATA[SOCIAL]]></social>
+		<twitter><![CDATA[TWEET]]></twitter>
+		<instagram><![CDATA[INSTAGRAM]]></instagram>
+		<fourSquare><![CDATA[FOURSQUARE]]></fourSquare>
+		<flickr><![CDATA[FLICKR]]></flickr>
+		
+		<train_line><![CDATA[Línea de tren:]]></train_line>
+		<train_frequency><![CDATA[Frecuencia:]]></train_frequency>
+		<train_frequency_unit><![CDATA[Tren/Hora]]></train_frequency_unit>
+		<train_from><![CDATA[Desde:]]></train_from>
+		<train_to><![CDATA[Hasta:]]></train_to>
+		<train_arrival_time><![CDATA[Llega en:]]></train_arrival_time>
+		<train_arrival_time_unit><![CDATA[%%MIN%% m %%SEC%% s]]></train_arrival_time_unit>
+
+	</dataLabel>
+	<dataDetail>
+		
+		<metro><![CDATA[METRO]]></metro>
+		<metroNextTrains><![CDATA[PRÓXIMOS TRENES:]]></metroNextTrains>
+		<metroNextTrainsTerminus1><![CDATA[Fréquence des trains vers Terminus 1]]></metroNextTrainsTerminus1>
+		<metroNextTrainsTerminus2><![CDATA[Fréquence des trains vers Terminus 2]]></metroNextTrainsTerminus2>
+		<metroDisclaimer><![CDATA[Extrapolado de datos oficiales]]></metroDisclaimer>
+		
+		<bicycle><![CDATA[BICICLETAS PÚBLICAS]]></bicycle>
+		<bicycleAvailable><![CDATA[bici(s) disponible(s)]]></bicycleAvailable>
+		<bicycleAvailableSlots><![CDATA[plaza(s) disponible(s)]]></bicycleAvailableSlots>
+		<bicycleUpdatedAt><![CDATA[ÚLTIMA ACTUALIZACIÓN: ]]></bicycleUpdatedAt>
+		
+		<networks><![CDATA[REDES]]></networks>
+		<internetRelays><![CDATA[REPETIDOR DE INTERNET]]></internetRelays>
+		<internetSubscribers><![CDATA[SUSCRIPTORES]]></internetSubscribers>
+		<wifiHotSpots><![CDATA[ZONAS WI-FI]]></wifiHotSpots>
+		
+		<mobile><![CDATA[MÓVIL]]></mobile>
+		<mobileAntenna><![CDATA[ANTENA MÓVIL]]></mobileAntenna>
+		<mobileNetworks2G3G><![CDATA[Red(es):]]></mobileNetworks2G3G>
+		<mobileProvider><![CDATA[Proveedor]]></mobileProvider>
+		<mobileMultipleProviders><![CDATA[multiproveedor]]></mobileMultipleProviders>
+		
+		<electroMagneticFields><![CDATA[CAMPO ELECTROMAGNÉTICO]]></electroMagneticFields>
+		<electroMagneticFieldsMeasurementDate><![CDATA[Fecha de medición]]></electroMagneticFieldsMeasurementDate>
+		<electroMagneticFieldsGpsCoordinates><![CDATA[Coordenadas GPS]]></electroMagneticFieldsGpsCoordinates>
+		
+		
+		
+		<streetFurniture><![CDATA[MOBILIARIO URBANO]]></streetFurniture>
+		
+		<atm><![CDATA[CAJEROS AUTOMÁTICOS]]></atm>
+		<!-- + bank/-->
+		
+		<adBillboards><![CDATA[CARTELES PUBLICITARIOS]]></adBillboards>
+		<adBillboard><![CDATA[Cartel]]></adBillboard>
+		<adDigitalBillboard><![CDATA[Cartel digital]]></adDigitalBillboard>
+		
+		
+		<trafficLights><![CDATA[SEMÁFOROS]]></trafficLights>
+		
+		<publicToilets><![CDATA[ASEOS PÚBLICOS]]></publicToilets>
+		
+		<cctv><![CDATA[CÁMARAS DE SEGURIDAD]]></cctv>
+		<cctvPolice><![CDATA[CÁMARAS DE SEGURIDAD DE LA POLICÍA]]></cctvPolice>
+		<cctvTraffic><![CDATA[CÁMARAS DE TRÁFICO]]></cctvTraffic>
+		
+		<social><![CDATA[SOCIAL]]></social>
+		
+		<instargram><![CDATA[INSTAGRAM]]></instargram>
+		<instagramNewInstagramPicture><![CDATA[NUEVA FOTO DE INSTAGRAM]]></instagramNewInstagramPicture>
+		<instagramHasPostedAnewPic><![CDATA[Ha publicado una nueva foto]]></instagramHasPostedAnewPic>
+		<instragramDisclaimer><![CDATA[Wearedata usa la API de Instagram™ y no está promocionado ni certificado por Instagram. Todos los logotipos y marcas comerciales de Instagram™ que aparecen en este sitio web son propiedad de Instagram.]]></instragramDisclaimer>
+		<fourSquare><![CDATA[FOURSQUARE]]></fourSquare>
+		<fourSquarePowered><![CDATA[POWERED BY]]></fourSquarePowered>
+		<fourSquareNewCheckIn><![CDATA[NUEVO CHECK-IN DE FOURSQUARE]]></fourSquareNewCheckIn>
+		<fourSquareIsTheNewMayorOf><![CDATA[Es el alcalde de...]]></fourSquareIsTheNewMayorOf>
+		<fourSquareDisclaimer><![CDATA[Este sitio web usa la interfaz de programación de aplicaciones de Foursquare® pero no está promocionado ni certificado por Foursquare Labs, Inc.]]></fourSquareDisclaimer>
+		
+		<twitter><![CDATA[TWITTER]]></twitter>
+		<twitterReply><![CDATA[RESPONDER]]></twitterReply>
+		<twitterRetweet><![CDATA[RETWITTEAR]]></twitterRetweet>
+		<twitterFavorites><![CDATA[FAVORITO]]></twitterFavorites>
+		<twitterFollow><![CDATA[SEGUIR]]></twitterFollow>
+		<twitterSeeConversation><![CDATA[Ver conversación]]></twitterSeeConversation>
+		<twitterDisclaimer><![CDATA[]]></twitterDisclaimer>
+		<flickrDisclaimer><![CDATA[Este producto utiliza la API de Flickr, pero no es aprobado o certificado de Flickr.]]></flickrDisclaimer>
+
+
+
+	</dataDetail>
+
+	<share>
+		
+		<FBGtitle><![CDATA[WATCH_DOGS WeareData]]></FBGtitle>
+		<FBGtext><![CDATA[¡Échale un vistazo a esto! Estoy vigilando:#type# #district# #city# en WE ARE DATA de Watch_Dogs.]]></FBGtext>
+		<FBGimage><![CDATA[img/share/ubisoft-watchdogs-wearedata-logo.jpg]]></FBGimage>
+		<TwitterTitle><![CDATA[WE ARE DATA de Watch_Dogs]]></TwitterTitle>
+		<TwitterText><![CDATA[Descubre cómo los datos controlan la ciudad de #city# en nuestro mundo ultraconectado.]]></TwitterText>
+
+	</share>
+
+</data>

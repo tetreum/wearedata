@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<bounds minlon="13.08840" minlat="52.33810" maxlon="13.76130" maxlat="52.67550"/>
+	
+	
+	<worldScale>20000000</worldScale>
+	<building minHeight="12" maxHeight="20" debrisOffset="0" />
+	
+	<camera>
+		<!--
+		<minHeight>18</minHeight>
+		<maxHeight>750</maxHeight>
+		<minRadius>-1</minRadius>
+		<maxRadius>-70</maxRadius>
+		/-->
+		
+		<minHeight>90</minHeight>
+		<maxHeight>1000</maxHeight>
+		<minRadius>-1</minRadius>
+		<maxRadius>-120</maxRadius>
+	</camera>
+	
+	<filters>
+	
+		<!--transports/-->
+		<metro active="1"               showPopin="1" 	showDetail="0"/>
+		<bicycle active="1"             showPopin="1" 	showDetail="0"/>
+                                        
+		<!--networks/-->                
+		<electromagnetic active="0"     showPopin="1" 	showDetail="1"/>
+		<internetRelays active="1"      showPopin="1" 	showDetail="1"/>
+		<wifiHotSpots active="1"        showPopin="1" 	showDetail="1"/>
+		<mobile active="1"              showPopin="0" 	showDetail="0"/>
+                                        
+		<!--streetFurniture/-->         
+		<atm active="1"                 showPopin="1" 	showDetail="1"/>
+		<ad active="0"                  showPopin="1" 	showDetail="1"/>
+		<traffic active="1"             showPopin="1" 	showDetail="1"/>
+		<toilets active="1"             showPopin="1" 	showDetail="1"/>
+		<cameras active="1"             showPopin="1" 	showDetail="1"/>
+                                        
+		<!--social/-->                  
+		<twitter active="1"             showPopin="1" 	showDetail="1"/>
+		<instagram active="1"           showPopin="1" 	showDetail="1"/>
+		<fourSquare active="1"          showPopin="1" 	showDetail="1"/>
+		<flickr active="1"              showPopin="1" 	showDetail="1"/>
+	</filters>
+	
+	<metroLineColors>
+		<line name="U2" color="0xff0000" /> 
+		<line name="U3" color="0x087308" /> 
+		<line name="U4" color="0xffd800" /> 
+		<line name="U5" color="0xb70000" /> 
+		<line name="U55" color="0xffa47c" /> 
+		<line name="U6" color="0xc600c6" /> 
+		<line name="U7" color="0x42b5ff" /> 
+		<line name="U8" color="0x0008de" /> 
+		<line name="U9" color="0xfe8706" /> 
+		<line name="S1" color="0x00b600" /> 
+		<line name="S2" color="0x00b600" /> 
+		<line name="S25" color="0x00b600" /> 
+		<line name="S3" color="0x840084" /> 
+		<line name="S41 (CW)" color="0xe37066" /> 
+		<line name="S42 (CCW)" color="0xe37066" /> 
+		<line name="S45" color="0xe37066" /> 
+		<line name="S46" color="0xe37066" /> 
+		<line name="S47" color="0xe37066" /> 
+		<line name="S5" color="0x840084" /> 
+		<line name="S7" color="0x840084" /> 
+		<line name="S75" color="0x840084" /> 
+		<line name="S8" color="0x00b600" /> 
+		<line name="S85" color="0x00b600" /> 
+		<line name="S9" color="0x840084" /> 
+		<line name="U1" color="0x00c600" />	
+		<line name="multiLineberlin" color="0x8806F9"/>		
+	</metroLineColors>
+	
+	<monuments>
+		<mesh classpath="wd.d3.geom.monuments.mesh.berlin.Brandenburg" lon="13.377804" lat="52.516276" decalX="5" decalY="10" decalZ="0" 	rotation="0" 	scale=".40" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.berlin.Reichstag" lon="13.376057" lat="52.518591" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".40" />
+		<mesh classpath="wd.d3.geom.monuments.mesh.berlin.CharlottenburgCastle" lon="13.295401" lat="52.520464" decalX="0" decalY="10" decalZ="5" 	rotation="0" 	scale=".40" /><mesh classpath="wd.d3.geom.monuments.mesh.berlin.BerlinerDom" lon="13.400964" lat="52.519041" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".40" />
+		
+		<mesh classpath="wd.d3.geom.monuments.mesh.berlin.Fernsehturm" lon="13.409392" lat="52.520817" decalX="0" decalY="0" decalZ="0" 	rotation="0" 	scale=".40" />
+		
+		<mesh classpath="wd.d3.geom.monuments.mesh.berlin.Siegessaule" lon="13.350086" lat="52.514515" decalX="0" decalY="10" decalZ="0" 	rotation="0" 	scale=".40" />
+		
+			
+	</monuments>
+	<dataUnits>
+		
+		<electricityConsumption			unit="MWH" label=""/>
+		<metroTrainFrequency 			unit="metroTrainPerHour" label=""/>
+		<metroCommutersFrequency 		unit="metroCommutersPerHour" label=""/>
+		<electroMagneticFieldsLevel		unit="" label="electroMagneticFieldsOverAllLevelOfExposure"/>
+		<adConsumerExposed				unit="adConsumerExposedPerDay" label=""/>
+		
+	</dataUnits>
+</data>
