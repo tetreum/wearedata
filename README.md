@@ -2,6 +2,9 @@
 ** WATCH DOGS **
 ***************
 
+![wearedata](http://infosthetics.com/archives/watch_dogs.jpg)
+
+
 RECOVERY NOT FINISHED [SQL, Services 0.5%]
 
 Data on watchdogs/assets/csv
