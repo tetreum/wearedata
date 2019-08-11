@@ -2,7 +2,7 @@
 ** WATCH DOGS **
 ***************
 
-![wearedata](http://infosthetics.com/archives/watch_dogs.jpg)
+![wearedata](https://raw.githubusercontent.com/tetreum/wearedata/master/1.jpg)
 
 
 RECOVERY NOT FINISHED [SQL, Services 0.5%]
